@@ -1,0 +1,19 @@
+prefix: '&d&lMENCIONES &8» '
+no-permission: '&cNo tienes permisos de hacer eso!'
+commands:
+  success: '&aSuccessfully set ''&7%path%&a'' to ''&7%value%&a''.'
+  not-a-valid-path: '&cThat is not a valid path in the config.'
+  current-value: '&7The current value of ''&9%path%&7'' is ''&3%value%&r&7''.'
+  available-paths: '&7The paths available right now are: &a%paths%'
+  config:
+    can-only-be-boolean: '&cSorry but this path can only be ''true'' or ''false''.'
+    can-only-be-number: '&cSorry but this path can only be a number.'
+    can-only-be-sound: '&cSorry but this path can only be a sound. Here is a list of them: &a%sounds%'
+    can-only-be-particle: '&cSorry but this path can only be a particle. Here is a list of them: &a%particles%'
+  reload:
+    success: '&aMenciones re-cargadas!'
+  everyone:
+    success: '&aHas mencionado a todo el mundo!'
+  toggle:
+    enabled: '&cNo puedes mencionar a alguien'
+    disabled: '&cNo puedes mencionar a ese jugador de nuevo!'

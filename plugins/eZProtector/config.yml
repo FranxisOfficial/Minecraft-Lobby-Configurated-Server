@@ -1,0 +1,213 @@
+#############################
+# eZProtector by Dvargas135 #
+#############################
+# See the placeholders and comments at the end of the config!
+# ################################
+# #    Prefix
+# # Plugin prefix for warns/notifies
+# ################################
+prefix: '&d&lANTICHEAT &8» &7&r'
+#
+#
+# ################################
+# #    Plugin Updater
+# # Console update notifier
+# ################################
+updater: false
+#
+#
+# ################################
+# #    Mod Logger
+# # Logs the enabled mods in the console
+# # If you have all the mods enabled, your console
+# # will be spammed by logging all the mods.
+# ################################
+log-blocked-mods: false
+#
+#
+# ################################
+# #    Tab Completion
+# ################################
+tab-completion:
+  blocked: true
+  warn:
+    enabled: false
+    # If the above option is true and if players spam the tab key,
+    # they'll also get spammed with the below message
+    message: '%prefix% &cNo tienes permiso para completar comandos con tabulación.'
+  notify-admins:
+    # Admins will also get spammed if the player spams the tab key.
+    enabled: false
+    message: '%prefix% %player% Intenté completar con tabulación un comando. &4(%command%)'
+  punish-player:
+    # Do you really want to punish a player just because they attempted to tab-complete a command?
+    # Recommended to leave this false. Players can press the tab key by error and get kicked unnecessarily.
+    enabled: false
+    command: 'kick %player% %errormessage%'
+#
+#
+# ################################
+# #    Hidden Syntaxes
+# # Blocks every command that has a colon (:) in it. 
+# # An example could be "/bukkit:help", "/essentials:warp", etc.
+# ################################
+hidden-syntaxes:
+  blocked: true
+  error-message: '%prefix% &cEsa sintaxis está prohibida.'
+  notify-admins:
+    enabled: true
+    message: '%prefix% %player% intentó hacer un comando con una sintaxis oculta. &4(%command%)'
+  punish-player:
+    enabled: false
+    command: 'kick %player% %errormessage%'
+#
+#
+# ################################
+# #    Custom Plugins
+# # Customized plugin list, commas are imperative.
+# # Only showed if the 'custom-plugins' option is set to true.
+# ################################
+custom-plugins:
+  enabled: true
+  plugins: 
+  # This message will only be shown if the above option is set to false.
+  error-message: '%prefix% &4Tu abuso se ha enviado a los administradores.'
+  notify-admins:
+    enabled: true
+    message: '%prefix% %player% traté de hacer el comando &4%command%'
+  # The punish feature will only work if you have the custom-plugins feature set to false.
+  punish-player:
+    enabled: false
+    command: 'kick %player% %prefix% No tienes permiso para hacer esto. (%command%)'
+#
+#
+# ################################
+# #    Custom Blocked Commands
+# # Will block the listed commands.
+# ################################
+custom-commands:
+  blocked: true
+  error-message: '%prefix% No tienes permiso para hacer esto. &4(%command%)'
+  commands:
+  - a
+  - about
+  - icanhasbukkit
+##- pl      # These two commands are handled by the customized plugins section.
+##- plugins # They don't need to be added here. (/plugins and /pl).
+  - ver
+  - version
+  - '?'
+  - plugman list
+  - command_without_slash
+  - server
+  - server authlobby
+  - server lobby
+  - server skywars
+  - lp
+  - luckperms
+  - minecraft:luckperms
+  - minecraft:lp
+  notify-admins:
+    enabled: true
+    message: '%prefix% &e%player% &btrato de usar el comando &e%command%'
+  punish-player:
+    enabled: false
+    command: 'kick %player% %errormessage%'
+#
+#
+# ################################
+# #    Opped Player Commands
+# # Blockage of commands for opped players
+# ################################
+opped-player-commands:
+  blocked: true
+  error-message: '%prefix% Este comando solo se puede ejecutar desde la consola. &4(%command%)'
+  commands:
+  - ezp
+  - reload
+  - featherboard resetconfig
+  - command_without_slash
+  bypassed-players:
+  - Notch
+  notify-bypassed-players:
+    enabled: true
+    message: '%prefix% Jugador habilitado %player% intentó hacer &4%command%'
+  punish-player:
+    enabled: false
+    command: 'kick %player% %errormessage%'
+#
+#
+# ################################
+# #    Sign exploit blockage
+# ################################
+sign-hack:
+  blocked: true
+  error-message: '%prefix% &4Que estas haciendo?!'
+  notify-admins:
+    enabled: true
+    message: '%prefix% &4&lWARN &c- %player% intentó hacer el exploit de la señal, pero falló.'
+  punish-player:
+    enabled: false
+    command: 'kick %player% %errormessage%'
+#
+#
+# ################################
+# #    Mod blockage
+# ################################
+mods:
+  wdl:
+    block: false
+    warning-message: '&4WARN &c- &f%player% intentó unirse con el mod de descarga mundial, pero falló.'
+    punish-command: kick %player% &4No se permite el World Downloader Mod.
+  schematica:
+    block: false
+  voxelmap:
+    block: false
+  damageindicators:
+    block: false
+  reiminimap:
+    block: false
+  forge:
+    block: false
+    warning-message: '&4WARN &c- &f%player% intentó unirse con el mod Forge, pero falló.'
+    punish-command: kick %player% &4El mod Forge no está permitido.
+  5zig:
+    block: false
+  betterpvp:
+    block: false
+  liteloader:
+    block: false
+    warning-message: '&4WARN &c- &f%player% intentó unirse con el mod LiteLoader, pero falló.'
+    punish-command: kick %player% &4El mod LiteLoader no está permitido.
+  bettersprinting:
+    block: false
+  labymod:
+    block: false
+  smartmoving:
+    block: false
+#
+#
+# ################################
+# #    Placeholders
+# # All the placeholders you're going to use for messages or commands.
+# ################################
+#
+###
+#  %errormessage% :
+# This placeholder will display the same message as if the punishment wasn't enabled.
+# In this case, if you haven't changed the default config, it will display the 
+# "You don't have permission to perform..." message when the player is kicked.
+###
+#  %player% :
+# This always refers to the player that is attempting to do something that eZProtector blocked
+###
+# %command% :
+# Well, what's the explanation here? It's just the performed command lol
+###
+# %prefix%
+# This is the prefix that can be displayed on every message, just for players to know
+# which plugin is doing all this stuff ;)
+# This placeholder is set at the very first options of this config. You can't miss it!
+#
+###
+# Thanks for using eZProtector, don't forget to leave a review! :)

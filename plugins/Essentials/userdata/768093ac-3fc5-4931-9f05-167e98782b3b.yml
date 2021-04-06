@@ -1,0 +1,23 @@
+lastAccountName: xRays_Nide
+timestamps:
+  login: 1617468352903
+  logout: 1617468363033
+  kits:
+    color: 1617108243697
+  lastteleport: 1617388077580
+ipAddress: 80.102.236.91
+lastlocation:
+  world: Hubsito
+  x: -3.626726568861514
+  y: 68.96619230538455
+  z: -19.36495304476921
+  yaw: 7.846264
+  pitch: 12.890566
+logoutlocation:
+  world: Hubsito
+  x: -4.563735542216349
+  y: 63.0
+  z: -1.715950424038132
+  yaw: -180.20877
+  pitch: 1.5602322
+afk: false

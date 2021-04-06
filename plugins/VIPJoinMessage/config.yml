@@ -1,0 +1,54 @@
+# ##################################### #
+# VIPJOINMESSAGE VERSION: vjm-3.0       #
+# AUTHOR: Deewk - TWITTER: @manueldeew  #
+# ##################################### #
+
+# --------------[ CONFIG ]-------------- #
+
+# JOIN SOUND, TO DISABLE TYPE "false" TO ENABLE TYPE "true"
+# LIST OF SOUNDS AVALIABLE: https://github.com/Deewkz/VIPJoinMessage/wiki/VIP-JOIN-MESSAGE---SOUND-LIST
+# MORE SOUNDS IN NEXT UPDATES
+# SOUND PERMISSION: vjm.joinsound.sound_name
+# EXAMPLE: vjm.joinsound.CHICKEN_EGG_POP
+
+JoinSound: "true"
+
+# JOIN SOUND OP BYPASS, TO DISABLE TYPE "false" OR " "
+# TYPE THE NAME OF THE SOUND ON "OpPlayer_JoinSound" TO ENABLE
+# LIST OF SOUNDS AVALIABLE: https://github.com/Deewkz/VIPJoinMessage/wiki/VIP-JOIN-MESSAGE---SOUND-LIST
+# MORE SOUNDS IN NEXT UPDATES
+
+OpPlayer_JoinSound: "ORB_PICKUP"
+
+# DEFAULT PLAYERS MESSAGES CONFIG
+# 
+# *IF YOU WANT TO DISABLE THE DEFAULT MESSAGE FROM THE DEFAULT USERS, 
+# ADD "- VJM.default" PERMISSION AND PUT "false" IN THE OPTIONS BELLOW*
+
+DefaultJoinMsg: "true"
+DefaultLeaveMsg: "true"
+DefaultJoinMessage: "&8[&a&l+&8] &3%player%"
+DefaultLeaveMessage: "&8[&c&l-&8] &3%player%"
+
+# OP PLAYERS MESSAGES CONFIG
+
+OpPlayerJoinMsg: "true"
+OpPlayerLeaveMsg: "true"
+OpPlayerJoinMessage: "&4&lFUNDADOR &c%player% &fha entrado al &e&lLOBBY&R&f!"
+OpPlayerLeaveMessage: "&4&lFUNDADOR &c%player% &fha salido del &e&lLOBBY&R&f!"
+
+# JOIN / LEAVE CONFIG MESSAGES
+# *IF YOU WANT TO DISABLE THE MESSAGE FROM THE ANY RANK, 
+# ADD THE PERMISSION AND TYPE " " IN THE OPTIONS BELLOW*
+# 
+# How can I add extra ranks? Just write below the NUMBER that follows the previous one!
+# Like the example of number 10.
+# *WARNING! YOU CAN ADD EXTRA RANKS IF YOU NEED, BUT THE LIMIT IS 30 FOR NOW*
+
+JoinMessages:
+  1: "&4&lSTAFF &c%player% &fha entrado al &e&lLOBBY&f!"
+  2: "AddYourExtraRankHere"
+
+LeaveMessages:
+  1: "&4&lSTAFF &c%player% &fha salido del &e&lLOBBY&f!"
+  2: "AddYourExtraRankHere"

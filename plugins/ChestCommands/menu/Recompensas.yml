@@ -1,0 +1,166 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&d&lMEGACRAFT &8- &fRecompensas'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 5
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'Repartidor'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  open-action: ''
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: wool:1
+    left-click: true
+    right-click: true
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+S1:
+  COMMAND: 'server:AAASDASDASD'
+  NAME: '&aEntrega Diaria'
+  LORE:
+    - ''
+    - '&eContiene:'
+    - '&f - &e+35 Monedas'
+    - '&f - &b+7 Experiencia'
+    - ''
+    - '&a¡Click para retirarlo!'
+  ID: 397
+  DATA-VALUE: 3
+  SKULL-OWNER: Chest
+  POSITION-X: 2
+  POSITION-Y: 2
+S2:
+  COMMAND: 'server:AAASDASDASD'
+  NAME: '&aEntrega Semanal &8| &e&lVIP'
+  LORE:
+    - ''
+    - '&eContiene:'
+    - '&f - &e+95 Monedas'
+    - '&f - &b+15 Experiencia'
+    - ''
+    - '&a¡Click para retirarlo!'
+  ID: 397
+  DATA-VALUE: 3
+  SKULL-OWNER: Chest
+  POSITION-X: 4
+  POSITION-Y: 2
+S3:
+  COMMAND: 'server:AAASDASDASD'
+  NAME: '&aEntrega Semanal &8| &e&lVIP+'
+  LORE:
+    - ''
+    - '&eContiene:'
+    - '&f - &e+135 Monedas'
+    - '&f - &b+23 Experiencia'
+    - ''
+    - '&a¡Click para retirarlo!'
+  ID: 397
+  DATA-VALUE: 3
+  SKULL-OWNER: Chest
+  POSITION-X: 6
+  POSITION-Y: 2
+S4:
+  COMMAND: 'server:AAASDASDASD'
+  NAME: '&aEntrega Semanal &8| &6&lMEGA'
+  LORE:
+    - ''
+    - '&eContiene:'
+    - '&f - &e+155 Monedas'
+    - '&f - &b+43 Experiencia'
+    - ''
+    - '&a¡Click para retirarlo!'
+  ID: 397
+  DATA-VALUE: 3
+  SKULL-OWNER: Chest
+  POSITION-X: 8
+  POSITION-Y: 2
+S6:
+  COMMAND: 'server:AAASDASDASD'
+  NAME: '&aEntrega diaria &8| &6&lMEGA+'
+  LORE:
+    - ''
+    - '&eContiene:'
+    - '&f - &e+160 Monedas'
+    - '&f - &b+56 Experiencia'
+    - ''
+    - '&a¡Click para retirarlo!'
+  ID: 397
+  DATA-VALUE: 3
+  SKULL-OWNER: Chest
+  POSITION-X: 3
+  POSITION-Y: 3
+S9:
+  COMMAND: 'server:AAASDASDASD'
+  NAME: '&aEntrega diaria &8| &c&lYOU&f&lTUBER'
+  LORE:
+    - ''
+    - '&eContiene:'
+    - '&f - &e+187 Monedas'
+    - '&f - &b+67 Experiencia'
+    - ''
+    - '&a¡Click para retirarlo!'
+  ID: 397
+  DATA-VALUE: 3
+  SKULL-OWNER: Chest
+  POSITION-X: 5
+  POSITION-Y: 3
+S20:
+  COMMAND: 'server:AAASDASDASD'
+  NAME: '&aEntrega semanal &7| &2&lDONACIÓN'
+  LORE:
+    - ''
+    - '&eContiene:'
+    - '&f - &e+160 Monedas'
+    - '&f - &b+56 Experiencia'
+    - ''
+    - '&a¡Click para retirarlo!'
+  ID: 397
+  DATA-VALUE: 3
+  SKULL-OWNER: Chest
+  POSITION-X: 7
+  POSITION-Y: 3
+Perfil2:
+  COMMAND: 'perflsm'
+  NAME: '&d&lTú información &a&l✔'
+  LORE:
+    - ''
+    - '&fNombre: &a{player}'
+    - '&fRango: &c¡Adquíerelo!'
+    - '&fNivel: &30'
+    - '&fDinero: &60.0'
+    - ''
+    - '&fPolvo misterioso: &d0'
+    - '&fMystery boxes: &b0'
+    - ''
+    - '&aClick para ir a tu perfil.'
+  ID: 397
+  DATA-VALUE: 3
+  SKULL-OWNER: Config
+  POSITION-X: 5
+  POSITION-Y: 5

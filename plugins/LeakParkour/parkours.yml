@@ -1,0 +1,40 @@
+# > ---
+# > LeakParkour parkours
+# > Visit Spigot page for more informations 
+# > https://goo.gl/Z99sVg
+# > ---
+
+Parkours:
+  PARKOUR:
+    status: 'ON'
+    points:
+      '1':
+        world: LOBBYP2
+        x: 2
+        y: 141
+        z: 8
+        yaw: -356.71313
+      '2':
+        world: LOBBYP2
+        x: 0
+        y: 141
+        z: -4
+        yaw: -335.12122
+      '3':
+        world: LOBBYP2
+        x: -14
+        y: 141
+        z: -24
+        yaw: -200.29718
+      '4':
+        world: LOBBYP2
+        x: -10
+        y: 141
+        z: -30
+        yaw: -151.69775
+      '5':
+        world: LOBBYP2
+        x: -2
+        y: 150
+        z: -45
+        yaw: -186.25916

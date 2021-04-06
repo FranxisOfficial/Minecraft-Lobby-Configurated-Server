@@ -1,0 +1,246 @@
+# ModMode 
+# by GC
+
+# Build Version: 2.1.7
+# Release date: 2018.10.13
+
+# ** Commands and permissions
+# /modmode - Toggle moderation mode (modmode.use)
+# /modhelp - See help of commands (modmode)
+# /vanish - Toggle invisibility mode (modmode.vanish)
+# /freeze <player> - Freeze another player (modmode.freeze)
+# /invsee <player> - Preview another player's inventory contents (modmode.invsee)
+# /push - Push yourself forward (modmode.push)
+# /randomtp - Teleport to a random player (modmode.randomtp)
+# /staffchat (message) - Send a message to staff chat (modmode.staffchat)
+# /clearchat - Clear chat history (modmode.clearchat)
+# /togglechat - Toggle chat for players (modmode.togglechat)
+# /ticket <send|respond> - Interact with tickets (modmode.ticket|modmode.ticket.respond)
+# /report <player> <reason> - Report Players (to receive reports, modmode.staff)
+
+# Enable/disable modmode on join with 'modmode.onjoin'
+automod-join-permission: true
+
+# Disable parts of the plugin
+enabled:
+  freeze: true
+  tickets: true
+  invsee-command: true
+  
+freeze:
+  # This inventory cannot be closed until freeze is over.
+  # It should make players be unable to turn off their clients.
+  freeze-inventory:
+    open: true
+    inventory-name: "&eYou are &nFrozen"
+    # Inventory size (9-54)
+    size: 9
+    # Completely customizable
+    items:
+      # Number equals item's slot, slots vary from 0 to 53
+      '4':
+        item:
+          id: STAINED_GLASS_PANE
+          subid: 14
+          amount: 1
+        name: "&CYOU ARE FROZEN"
+        lore:
+          - "&eConnect to &cts.myserver.com"
+          - "&efor further instructions"
+  frozen-message:
+   - '&8&m--------------------------------------------------'
+   - '&eModMode&7 » &fYou have been frozen by &c{STAFF_NAME}'
+   - '&eModMode&7 » &fPlease do not logout!'
+   - '&8&m--------------------------------------------------'
+  unfrozen-message:
+    - '&eModMode&7 » &fUnfrozen by &c{STAFF_NAME}'
+  logged-out-message: '&8[&c&lWARNING&8] &fPlayer &c{PLAYER} &fhas logged out while being frozen.'
+  cannot-freeze-message: '&eModMode&7 » &fPlayer &c{PLAYER} &fcould not be frozen because of his bypass.' 
+  commands-on-logout:
+   - 'ban {PLAYER} Logging out while frozen'
+  settings:
+    repeat: 6
+    movement: false
+    block-break: false
+    block-place: false
+    deal-damage: false
+    receive-damage: false
+    drop-item: false
+    pickup-item: false
+    inventory-click: false
+    launch-projectile: false
+    consume-item: false
+  messages:
+    usage: '&eModMode&7 » &f/freeze &c&lPLAYER'
+    froze-player: '&eModMode&7 » &cFroze &f{PLAYER}&f.'
+    unfroze-player: '&eModMode&7 » &cUnfroze &f{PLAYER}&f.'
+
+toggle-modmode:
+  enabled: '&eModMode&7 » &a&lEnabled &fmodmode.'
+  disabled: '&eModMode&7 » &c&lDisabled &fmodmode.' 
+  gamemode: 2
+  settings:
+    block-break: false
+    block-place: false
+    deal-damage: false
+    receive-damage: false
+    drop-item: false
+    pickup-item: false
+    inventory-click: false
+    launch-projectile: false
+    consume-item: false
+    teleport-back-on-exit: true
+  items:
+    0:
+      enabled: true
+      item:
+        id: BOOK
+        subid: 0
+        amount: 1
+      name: "&cInvsee &8(&7Right-click&8)"
+      lore: []
+      commands:
+        - 'invsee %target%'
+    1:
+      enabled: true
+      item:
+        id: INK_SACK
+        subid: 10
+        amount: 1
+      name: "&cToggle Vanish &8(&7Right-click&8)"
+      lore: []
+      commands:
+        - "vanish"
+    2:
+      enabled: true
+      item:
+        id: ENDER_PORTAL_FRAME
+        subid: 0
+        amount: 1
+      name: "&cEnderchest &8(&7Right-click&8)"
+      lore: []
+      commands:
+        - "endersee %target%"
+    4:
+      enabled: true
+      item:
+        id: NETHER_STAR
+        subid: 0
+        amount: 1
+      name: "&cFollow &fuser &8(&7Right-click&8)"
+      lore: []
+      commands:
+        - "follow %target%"
+      enchants:
+        - 'fortune:0'
+    5:
+      enabled: true
+      item:
+        id: ICE
+        subid: 0
+        amount: 1
+      name: "&cFreeze &fuser &8(&7Right-click&8)"
+      lore: []
+      commands:
+        - "freeze %target%"
+    7:
+      enabled: true
+      item:
+        id: FEATHER
+        subid: 0
+        amount: 1
+      name: "&cPush &8(&7Right-click&8)"
+      lore: []
+      commands:
+        - "push"
+    8:
+      enabled: true
+      item:
+        id: BLAZE_ROD
+        subid: 0
+        amount: 1
+      name: "&cRandom Player &8(&7Right-click&8)"
+      lore: []
+      commands:
+        - "randomtp"
+
+messages:
+  vanished: '&fVanish &aenabled'
+  unvanished: '&fVanish &cdisabled'
+
+commands:
+  # Select which commands are enabled
+  # Disabled commands will stop overriding other plugin's commands
+  freeze: true
+  push: true
+  invsee: true
+  randomtp: true
+  vanish: true
+  staffchat: true
+  clearchat: true
+  togglechat: true
+  ticket: true
+  follow: true
+  report: true
+
+  messages:
+    report:
+      usage: '&eModMode&7 » &f/report &c&lPLAYER &c&lMESSAGE'
+      report-received: '&c%player% &7reported &c%target% &d(%message%)'
+    global: 
+      no-permission: '&eModMode&7 » &fYou are not permitted to use &c{ACTION}&f.'
+      player-not-found: '&eModMode&7 » &fPlayer &c{PLAYER} &fis not online.'
+    follow:
+      usage: '&eModMode&7 » &f/follow &c&lPLAYER'
+      following: '&eModMode&7 » &fFollowing &c{PLAYER}&f.'
+    invsee:
+      usage: '&eModMode&7 » &f/invsee &c&lPLAYER'
+      opened-inventory: '&eModMode&7 » &fOpened inventory of &c{PLAYER}&f.'
+    staff-chat:
+      toggle: '&eModMode&7 » &fStaff chat has been &c%enabled/disabled%'
+      message: '&8[&c&lSTAFF&8] &f{PLAYER} &8> &c{MESSAGE}'
+      bungee: false
+      server-name: "Factions"
+    clearchat:
+      message: '&eModMode&7 » &fChat has been cleared by &c{STAFFNAME}&f.'
+    togglechat:
+      messages:
+        enabled: '&eModMode&7 » &fChat has been toggled on by &c{STAFFNAME}&f.'
+        disabled: '&eModMode&7 » &fChat has been toggled off by &c{STAFFNAME}&f.'
+      chat-disabled: '&eModMode&7 » &fThe chat is currently muted therefore you may not talk.'
+      blocked-commands-while-disabled:
+       - msg
+       - tell
+       - r
+       - w
+    enderchest:
+      opened: '&eModMode&7 » &fOpened enderchest of &c{PLAYER}&f.'
+    random-tp:
+      teleported: '&eModMode&7 » &fYou have randomly teleported to &c{PLAYER}&f.'
+      not-available: '&eModMode&7 » &fCould not find an available teleport match.' 
+    blocked-commands-while-in-modmode:
+     - home
+     - warp
+    blocked-commands-message: 
+      message: '&eModMode&7 » &fYou may not perform &c{COMMAND} &fwhile in modmode.' 
+
+tickets:
+  help:
+   - '&8&m--------------------------------------------------'
+   - ''
+   - ' &cTicket &8- &fTotal tickets &7> &c{TOTAL} '
+   - ''
+   - ' &c/ticket send <message> &8- &7Send a ticket to staff for help.'
+   - ' &c/ticket respond <id> <message> &8- &7Respond to a ticket.'
+   - ''
+   - '&8&m--------------------------------------------------'
+  wrong-arguments: '&6Tickets &7» &cWrong arguments.'
+  success: '&6Tickets &7» &fTicket has been succesfully sent.'
+  ticket-received: '&4&lNEW &6Tickets &7» &f{TICKET}&8(&c&lID &7#{ID}&8)'
+  ticket-response: '&cTicket &7Response &8> &f{RESPONSE}'
+  ticket-responded: '&cTicket &7Response &8> &fTicket has been answered.'
+  ticket-not-found: '&6Tickets &7» &fTicket with &8(&c&lID &7#{ID}&8) &fcould not be found.'
+  ticket-sender-offline: '&6Tickets &7» &fThe ticket sender is currently offline.'
+  list:
+    list-of-tickets: "&6Tickets &7» &fAll &c{TOTAL} &ftickets:"
+    format: " &8» &7{message}&f. ID:&c{ID}"

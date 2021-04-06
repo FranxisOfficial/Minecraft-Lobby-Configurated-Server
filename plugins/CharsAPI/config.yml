@@ -1,0 +1,95 @@
+#=================================#
+#                                 #
+#  Welcome to CharsAPI config ;]  #
+#                                 #
+#  ~Author: Merbio                #
+#                                 #
+#=================================#
+
+#====#
+# This option allows you to change translation of plugin.
+# Translates are in folder: CharsAPI/Language
+# To change translate you change there any 'language' to translate name file
+#====#
+# If you want, you can create your own translate by creating file in CharsAPI/Language
+# To make simplify this, in CharsAPI/Language you will be have Empty Translation File.
+# Exapmle configuration:
+#     Your created file: XY.yml
+#     
+#     language: XY
+#====#
+# If you want you can public your translation:
+#     on Spigot in comment: http://www.spigotmc.org/resources/charsapi.3439/
+#     or you can send to me file on private message to add this to source of plugin ;]
+#====#
+
+language: EN
+
+#=================================#
+#                                 #
+#  Builder Options Section        #
+#                                 #
+#=================================#
+
+#====#
+# Max font size blocade when you use command /ch font <SIZE>
+#====#
+
+max_font_size: 30
+
+#====#
+# Character which you set before and after CharsVariable
+# on example: %online%
+#====#
+
+variable_character: '%'
+
+#====#
+# List of character replaced to materials
+# Pattern CHARACTER:MATERIAL
+#====#
+
+char_to_material: 
+    - 'N:TNT'
+    - 'O:PACKED_ICE'
+
+#====#
+# How many blocks over player will be builded chars
+#====#
+
+space_over_player: 2
+
+#====#
+# How many blocks buillder will be create spacing in chars
+# when you using default font
+#====#
+
+default_font_space:
+    letter: 1  
+    word: 3
+    
+#===#
+# if equals 'true' blocks in chars when will be building 
+# will be replace any air blocks
+#===#
+
+only_air_blocade: true
+
+#=================================#
+#                                 #
+#  Exceptions Section             #
+#                                 #
+#=================================#
+
+#===#
+# allows to make notify you in console when plugin use too much
+# falling blocks in what time, what can make laggs
+#===#
+
+enable_falling_blocks_notify: true
+
+#===#
+# numbers of maximum blocks handling in one time to where you no will be inform
+#===#
+
+ammount_falling_blocks_to_notify: 10000

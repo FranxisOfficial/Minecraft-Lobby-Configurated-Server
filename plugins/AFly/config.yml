@@ -1,0 +1,22 @@
+##############################
+#     AFly - Config.yml      #
+#       Version v2.0         #
+#      Creador AndhyFx       #
+##############################
+
+#Mensajes del Chat
+Messages:
+  Enabled: '&d&lMEGACRAFT &8» &fTu modo de vuelo ha sido &aActivado'
+  Disabled: '&d&lMEGACRAFT &8» &fTu modo de vuelo ha sido &cDesactivado'
+  NoPerm: '&d&lMEGACRAFT &8» &cAdquiere rango para poder utilizar el modo de vuelo, adquierelo en &bmegacraftnet.tebex.io'
+
+#Mensajes de los Titulos
+Titles:
+  Disabled:
+    Active: true
+    Title: "&d&lSTAFF"
+    SubTitle: "&fModo de vuelo &cDesactivado"
+  Enabled:
+    Active: true
+    Title: "&d&lSTAFF"
+    SubTitle: "&fModo de vuelo &aActivado"

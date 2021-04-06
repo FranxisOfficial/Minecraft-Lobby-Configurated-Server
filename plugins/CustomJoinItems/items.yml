@@ -1,0 +1,18 @@
+Modalidades:
+  name: '&dModalidades &8(&7Click derecho&8)'
+  id: 345
+  slot: 1
+  command: 'modalidades'
+  cooldown-seconds: 1
+Música:
+  name: '&dMúsica &8(&7Click derecho&8)'
+  id: 2258
+  slot: 4
+  command: 'music'
+  cooldown-seconds: 1
+Lobbies:
+  name: '&dLobbies &8(&7Click derecho&8)'
+  id: 347
+  slot: 9
+  command: 'lobbies'
+  cooldown-seconds: 1

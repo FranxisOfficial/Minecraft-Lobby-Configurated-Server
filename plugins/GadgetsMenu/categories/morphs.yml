@@ -1,0 +1,169 @@
+Morphs:
+  Pig:
+    Name: '&9Transformación en Cerdo'
+    Material: COOKED_PORKCHOP
+    Cooldown: 10
+    Mystery Dust: 25
+    Rarity: Raro
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Enabled-Ability: true
+    Lore:
+    - '&7Transformate en un cerdo!'
+  Cow:
+    Name: '&9Transformación en Vaca'
+    Material: COOKED_BEEF
+    Cooldown: 10
+    Mystery Dust: 20
+    Rarity: Raro
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Enabled-Ability: true
+    Lore:
+    - '&7Transformate en una vaca!'
+  Enderman:
+    Name: '&5Transformación en Enderman'
+    Material: ENDER_PEARL
+    Cooldown: 10
+    Mystery Dust: 60
+    Rarity: Épico
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Enabled-Ability: true
+    Lore:
+    - '&7Transformate en un enderman!'
+  Chicken:
+    Name: '&5Transformación en Pollo'
+    Material: EGG
+    Cooldown: 10
+    Mystery Dust: 35
+    Rarity: Épico
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Enabled-Ability: true
+    Lore:
+    - '&7Transformate en un pollo!'
+  Spider:
+    Name: '&5Transformación en una Araña'
+    Material: COBWEB
+    Cooldown: 10
+    Mystery Dust: 50
+    Rarity: Épico
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Enabled-Ability: true
+    Lore:
+    - '&7Transformate en una araña!'
+  Sheep:
+    Name: '&5Transformación en una Oveja'
+    Material: WHITE_WOOL
+    Cooldown: 10
+    Mystery Dust: 50
+    Rarity: Épico
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Enabled-Ability: true
+    Lore:
+    - '&7Transformate en una oveja!'
+  Skeleton:
+    Name: '&5Transformación en un Esqueleto'
+    Material: BOW
+    Cooldown: 10
+    Mystery Dust: 70
+    Rarity: Épico
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Enabled-Ability: true
+    Lore:
+    - '&7Transformate en un esqueleto!'
+  Creeper:
+    Name: '&6Transformación en un Creeper'
+    Material: TNT
+    Cooldown: 10
+    Mystery Dust: 95
+    Rarity: Legendario
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Enabled-Ability: true
+    Lore:
+    - '&7Transformate en un creeper!'
+  Blaze:
+    Name: '&6Transformación en un Blaze'
+    Material: BLAZE_POWDER
+    Cooldown: 10
+    Mystery Dust: 125
+    Rarity: Legendario
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Enabled-Ability: true
+    Lore:
+    - '&7Transformate en un blaze!'
+  Zombie:
+    Name: '&6Transformación en un Zombie'
+    Material: ROTTEN_FLESH
+    Cooldown: 10
+    Mystery Dust: 105
+    Rarity: Legendario
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Enabled-Ability: true
+    Lore:
+    - '&7Transformate en un zombie!'
+  Iron Golem:
+    Name: '&6Transformación en un Golem de Hierro'
+    Material: IRON_BLOCK
+    Cooldown: 10
+    Mystery Dust: 120
+    Rarity: Legendario
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Enabled-Ability: true
+    Lore:
+    - '&7Transformate en un golem de hierro!'
+  Witch:
+    Name: '&6Transformación en Bruja'
+    Material: POTION:8196
+    Cooldown: 10
+    Mystery Dust: 110
+    Rarity: Legendario
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Enabled-Ability: true
+    Lore:
+    - '&7Transformate en una bruja!'
+  Snowman:
+    Name: '&6Transformación en un Muñeco de Nieve'
+    Material: SNOWBALL
+    Cooldown: 10
+    Mystery Dust: 125
+    Rarity: Legendario
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Enabled-Ability: true
+    Lore:
+    - '&7Transformate en un muñeco de nieve!'
+  Guardian:
+    Name: '&6Transformación en un guardian'
+    Material: PRISMARINE_SHARD
+    Cooldown: 10
+    Mystery Dust: 130
+    Rarity: Legendario
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Enabled-Ability: true
+    Lore:
+    - '&7Transformate en un guardian!'

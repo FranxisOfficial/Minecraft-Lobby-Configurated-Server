@@ -1,0 +1,85 @@
+Animations:
+  None:
+    Name: '&aAnimación Ninguna'
+    Material: BARRIER
+    Enabled: true
+    Mini-Block:
+      Material: ENDER_CHEST
+    Lore:
+    - '&7Selecciona la animación'
+    - '&7al abrir la caja en &aNINGUNA'
+  Normal:
+    Name: '&aAnimación Normal'
+    Material: ENDER_CHEST
+    Enabled: true
+    Mini-Block:
+      Material: ENDER_CHEST
+    Lore:
+    - '&7Selecciona la animación'
+    - '&7al abrir la caja en &aNORMAL'
+  CountDown:
+    Name: '&aAnimación de Cuenta regresiva'
+    Material: CLOCK
+    Enabled: true
+    Mini-Block:
+      Material: ENDER_CHEST
+    Lore:
+    - '&7Selecciona la animación'
+    - '&7al abrir la caja de &aCuenta regresiva'
+  Star:
+    Name: '&aAnimación de Estrella'
+    Material: NETHER_STAR
+    Enabled: true
+    Mini-Block:
+      Material: ENDER_CHEST
+    Mystery-Box-Quality-Block:
+      Material: NETHER_STAR
+    Lore:
+    - '&7Selecciona la animación'
+    - '&7al abrir la caja de &aEstrella'
+  Crafting:
+    Name: '&aAnimación de Crafteo'
+    Material: CRAFTING_TABLE
+    Enabled: true
+    Mini-Block:
+      Material: ENDER_CHEST
+    Mystery-Box-Quality-Block:
+      Material: CRAFTING_TABLE
+      Rotational-Angle:
+        X: 270
+        Y: 0
+        Z: 45
+    Lore:
+    - '&7Selecciona la animación'
+    - '&7al abrir la caja de &aCrafteo'
+  Summer:
+    Name: '&aAnimación de Verano'
+    Material: SUNFLOWER
+    Enabled: true
+    Mini-Block:
+      Material: head:5a5ab05ea254c32e3c48f3fdcf9fd9d77d3cba04e6b5ec2e68b3cbdcfac3fd
+    Mystery-Box-Quality-Block:
+      Material: SUNFLOWER
+    Lore:
+    - '&7Selecciona la animación'
+    - '&7al abrir la caja de &aVerano'
+  Halloween:
+    Name: '&aAnimación de Halloween'
+    Material: JACK_O_LANTERN
+    Enabled: true
+    Mini-Block:
+      Material: JACK_O_LANTERN
+    Lore:
+    - '&7Selecciona la animación'
+    - '&7al abrir la caja de &aHalloween'
+  Holiday:
+    Name: '&aAnimación de Día festivo'
+    Material: SNOWBALL
+    Enabled: true
+    Mini-Block:
+      Material: head:f5612dc7b86d71afc1197301c15fd979e9f39e7b1f41d8f1ebdf8115576e2e
+    Mystery-Box-Quality-Block:
+      Material: SNOWBALL
+    Lore:
+    - '&7Selecciona la animación'
+    - '&7al abrir la caja de &aDía festivo'

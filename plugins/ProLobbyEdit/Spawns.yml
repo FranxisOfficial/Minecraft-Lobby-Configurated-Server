@@ -1,0 +1,19 @@
+VoidTP:
+  Enabled-World: ShockMC
+  BlockY: 0
+  Spawn:
+    World: ShockMC
+    X: -690.4954007866904
+    Y: 35.0
+    Z: 355.44981201019567
+    Yaw: -0.28160566
+    Pitch: 0.1745061
+SetSpawn:
+  Enable: true
+  Lobby:
+    x: -690.4954007866904
+    y: 35.0
+    z: 355.44981201019567
+    pi: -0.28160566
+    ya: 0.1745061
+    spawn: ShockMC

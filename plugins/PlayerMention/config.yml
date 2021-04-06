@@ -1,0 +1,55 @@
+Regular:
+  prefix: '@'
+  sound: LEVEL_UP
+  titles:
+    enabled: true
+    title: '&3%player%'
+    subtitle: '&fTe acaba de &amencionar!'
+  actionbar:
+    enabled: false
+    text: '&a%player% &dhas mentioned &byou!'
+  particles:
+    enabled: false
+    particle-type: DRIP_WATER
+  cooldown:
+    enabled: true
+    time: 5
+  replacement:
+    enabled: true
+    text: '&a&l@%player%&r'
+  message:
+    enabled: true
+    text: '&3%player% &fte acaba de &amencionar!'
+Everyone:
+  prefix: '@'
+  sound: LEVEL_UP
+  titles:
+    enabled: true
+    title: '&3%player%'
+    subtitle: '&c&lHA MENCIONADO A TODO EL SERVIDOR'
+  actionbar:
+    enabled: false
+    text: '&a%player% &dhas mentioned &beveryone!'
+  particles:
+    enabled: false
+    particle-type: DRIP_WATER
+  cooldown:
+    enabled: true
+    time: 5
+  replacement:
+    enabled: true
+    text: '&a&l@TODOS&r'
+  message:
+    enabled: true
+    text: '&3%player% &c&lHA MENCIONADO A TODO EL SERVIDOR'
+useOldWay: false
+needPermissionToMention: false
+needsPrefix: false
+updateNotifications: true
+hooks:
+  Essentials: true
+  FactionChat: false
+  mcMMO: false
+  SuperVanish: false
+  PremiumVanish: false
+  Marriage: false

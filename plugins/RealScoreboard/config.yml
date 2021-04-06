@@ -1,0 +1,42 @@
+Config: 
+  Animations: 
+    Refresh-Delay: 15
+    Rainbow-Delay: 15
+    Title-Delay: 2
+  Disabled-Worlds: 
+    - LobbyP2_nether
+    - LobbyP2_the_end
+  Scoreboard: 
+    LOBBYPRINCIPAL: 
+      Lines: 
+        - "&7&o   ((Temporada 1))"
+        - "&1"
+        - "&8» &dTú"
+        - "&2"
+        - "&fNombre: &a%playername%"
+        - "&fRango: &c%suffix%"
+        - "&fFase: &6&l&nBETA&r"
+        - "&3"
+        - "&8» &dNetwork"
+        - "&4"
+        - "&fLobby: &c#1"
+        - "&fConexión: &6%ping%"
+        - "&fConectados: &3%online%"
+        - "&5"
+        - "&b    play.megacraft.link"
+      Title: 
+        - "&d&lMEGACRAFT &3&lNETWORK"
+    ABC: 
+      Lines: 
+        - "&8%rainbow%&l&m------------------------"
+        - "&7Second scoreboard"
+        - "%rainbow%&l&m------------------------"
+      Title: 
+        - "&6This is the second scoreboard."
+    Test: 
+      Lines: 
+        - "&8%rainbow%&l&m------------------------"
+        - "&7Third scoreboard"
+        - "%rainbow%&l&m------------------------"
+      Title: 
+        - "&6This is the Third scoreboard."

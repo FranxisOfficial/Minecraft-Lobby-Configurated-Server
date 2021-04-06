@@ -1,0 +1,244 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&d&lMEGACRAFT &8- &fModalidades'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 5
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'modalidades'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  open-action: 'sound: note pling'
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: wool:1
+    left-click: false
+    right-click: true
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+
+Bienvenido:
+  COMMAND: 'tell: &r'
+  NAME: '&e¡Disfruta de tu estancia!'
+  LORE:
+    - '&r'
+  ID: 101
+  POSITION-X: 3
+  POSITION-Y: 1
+Bienvenido2:
+  COMMAND: 'tell: &r'
+  NAME: '&e¡Disfruta de tu estancia!'
+  LORE:
+    - '&r'
+  ID: 101
+  POSITION-X: 3
+  POSITION-Y: 2
+Bienvenido3:
+  COMMAND: 'tell: &r'
+  NAME: '&e¡Disfruta de tu estancia!'
+  LORE:
+    - '&r'
+  ID: 101
+  POSITION-X: 3
+  POSITION-Y: 3
+Bienvenido4:
+  COMMAND: 'tell: &r'
+  NAME: '&e¡Disfruta de tu estancia!'
+  LORE:
+    - '&r'
+  ID: 101
+  POSITION-X: 3
+  POSITION-Y: 4
+Bienvenido5:
+  COMMAND: 'tell: &r'
+  NAME: '&e¡Disfruta de tu estancia!'
+  LORE:
+    - '&r'
+  ID: 101
+  POSITION-X: 3
+  POSITION-Y: 5
+RedesSociales:
+  COMMAND: 'redessociales'
+  NAME: '&c&lREDES SOCIALES'
+  LORE:
+    - '&8¿Quieres saber más sobre nosotros?'
+    - '&f'
+    - '&7Si le das click aquí en este item'
+    - '&7podrás saber más sobre &D&LMEGACRAFT&R'
+    - '&7A que esperas... Informáte ahora mismo!'
+  ID: 47
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 2
+MEGAMENU:
+  COMMAND: 'megamenu'
+  NAME: '&e&lBIENVENIDO A &d&lMEGACRAFT'
+  LORE:
+    - '&8¿Quieres saber que hay de nuevo en la 2.0?'
+    - '&f'
+    - '&7Si le das click aquí en este item'
+    - '&7podrás saber muchísimo más sobre la'
+    - '&7V2.0 de MEGACRAFT!'
+  ID: 54
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 3
+SerieYTs:
+  COMMAND: 'server: temple'
+  NAME: '&9Serie de SoyTemple'
+  LORE:
+    - '&8Diversión - Supervivencia - PvP'
+    - '&f'
+    - '&f'
+    - '&7Juega y diviertete en la serie'
+    - '&7de tu youtuber favorito: &a&lSOYTEMPLE'
+  ID: 397
+  DATA-VALUE: 3
+  SKULL-OWNER: SoyTemple
+  POSITION-X: 2
+  POSITION-Y: 4
+Builders:
+  COMMAND: 'server: buildteam'
+  NAME: '&a&lBuildTeam'
+  LORE:
+    - '&8Exclusiva para los builders'
+    - '&f'
+    - '&7Aqui los builders construyen.'
+    - '&7Y también desarollan su imaginación'
+    - '&7y construyen cosas guapísimas!'
+  ID: 271
+  POSITION-X: 9
+  POSITION-Y: 5
+Skywars:
+  COMMAND: 'server: skywars'
+  NAME: '&8» &e&lSKYWARS &f➝ &7Entra ahora!'
+  LORE:
+    - '&8Sobrevivir'
+    - '&f'
+    - '&7Una lucha épica entre islas pequeñas,'
+    - '&7como en &6&lSKYBLOCK&r &7pero luchando'
+    - '&7contra muchos enemigos y alzar la victoria!'
+    - '&f'
+    - '&6Algunas Características'
+    - '&f- Lobby propío'
+    - '&f- Sistema de tops'
+    - '&f- Mapas propíos'
+    - '&f- Hologramas'
+    - '&f'
+    - '&7Estado &8| &4&lNO DISPONIBLE'
+    - '&8➵ Versión &8| &a1.8 - 1.16'
+    - '&f'
+    - '&8» &c&lNo esta disponible&r &8«'
+  ID: bow
+  POSITION-X: 7
+  POSITION-Y: 2
+7r7b:
+  COMMAND: 'server: 7r7b'
+  NAME: '&8» &c&l7r7b &f➝ &7Entra ahora!'
+  LORE:
+    - '&8Sobrevivir'
+    - '&f'
+    - '&7Survival Anarquico de &c&l7r7b'
+    - '&7como en &a&lSURVIVAL&r &7pero luchando'
+    - '&7a muerte y destruyendo el mundo'
+    - '&f'
+    - '&6Algunas Características'
+    - '&f- Uso de hacks &a&lPERMITIDO'
+    - '&f- Podrás hacer lo que quieras'
+    - '&f- Total libertad para &a&lDUPEAR'
+    - '&f'
+    - '&7Estado &8| &a&lACTIVO'
+    - '&8➵ Versión &8| &a1.12.x - 1.16.x'
+    - '&f'
+    - '&8» &e&lClick para conectarte&r &8«'
+  ID: bedrock
+  POSITION-X: 8
+  POSITION-Y: 2
+Survival1:
+  COMMAND: 'server: Survival'
+  NAME: '&8» &a&lSURVIVAL &f➝ &7Entra ahora!'
+  LORE:
+    - '&8Sobrevivir'
+    - '&f'
+    - '&7Sobrevive en un mundo lleno de peligros!'
+    - '&7En este minijuego te vas a entretener si o si'
+    - '&7Minas, pvp, rangos y mucho mas!'
+    - '&f'
+    - '&6Algunas Características'
+    - '&f- Menús configurados'
+    - '&f- Kits'
+    - '&f- Rankups'
+    - '&f- Minas'
+    - '&f- Warps variados'
+    - '&f'
+    - '&7Estado &8| &a&lDISPONIBLE'
+    - '&8➵ Versión &8| &a1.8 - 1.16'
+    - '&f'
+    - '&8» &e&lClick para conectarte&r &8«'
+  ID: 2
+  POSITION-X: 6
+  POSITION-Y: 2
+Knockbackffa:
+  COMMAND: 'tell: &r'
+  NAME: '&8» &4&lPROXIMAMENTE'
+  LORE:
+    - '&f'
+  ID: 166
+  POSITION-X: 7
+  POSITION-Y: 3
+KitPvP:
+  COMMAND: 'tell: &r'
+  NAME: '&8» &4&lPROXIMAMENTE'
+  LORE:
+    - '&f'
+  ID: 166
+  POSITION-X: 6
+  POSITION-Y: 3
+Creativo:
+  COMMAND: 'tell: &r'
+  NAME: '&8» &4&lPROXIMAMENTE'
+  LORE:
+    - '&f'
+  ID: 166
+  POSITION-X: 5
+  POSITION-Y: 3
+RolePlay:
+  COMMAND: 'tell: &r'
+  NAME: '&8» &4&lPROXIMAMENTE'
+  LORE:
+    - '&f'
+  ID: 166
+  POSITION-X: 8
+  POSITION-Y: 3
+SkyBlock:
+  COMMAND: 'tell: &r'
+  NAME: '&8» &4&lPROXIMAMENTE'
+  LORE:
+    - '&f'
+  ID: 166
+  POSITION-X: 5
+  POSITION-Y: 2

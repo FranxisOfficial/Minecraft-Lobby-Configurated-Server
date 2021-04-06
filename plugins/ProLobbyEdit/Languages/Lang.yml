@@ -1,0 +1,199 @@
+#+-----------------------------------------------------------------------------------------+# 
+#                                                                                           #
+# __________               .____         ___.  ___.          ___________    .___.__  __     #
+# \______   \_______  ____ |    |    ____\_ |__\_ |__ ___.__.\_   _____/  __| _/|__|/  |_   #
+#  |     ___/\_  __ \/  _ \|    |   /  _ \| __ \| __ <   |  | |    __)_  / __ | |  \   __\  #
+#  |    |     |  | \(  <_> )    |__(  <_> ) \_\ \ \_\ \___  | |        \/ /_/ | |  ||  |    #
+#  |____|     |__|   \____/|_______ \____/|___  /___  / ____|/_______  /\____ | |__||__|    #
+#                                  \/         \/    \/\/             \/      \/             #
+#                                                                                           #
+#                                 @Lang.yml Edit                                            #
+#+-----------------------------------------------------------------------------------------+#
+
+# TabEdit 
+TABLIST:
+  HEADER: |-
+    &8&m+--------------------------------------+
+    &e
+    &e&lCombo&6&lCraft &f&lNetwork
+    &7SkyWars &8[&a%online-players%&8]
+    &e
+  FOOTER: |-
+    &e
+    &fTienda: &atienda.combocraft.net
+    &fTwitter: &a@CombocraftNT
+    &fDiscord: &adiscord.gg/combocraft
+    &e
+    &8&m+--------------------------------------+
+
+# Server List, Edit the Server Info
+SERVER_LIST:
+  M1: "&7&l----&8&l&m[&e&l&m-&7&l >>> &e&lSpigotMC &7Network &8(&e<online-players>&8)&7&l <<< &e&l&m-&8&l&m]&7&l----"
+  M2: "&eNew Features &7>> &bVoidTP, &cBlockCommands, &dScoreboards"
+
+# ItemsJoin Messages
+INV_FULL: "&e&lProLobbyEdit&7 >> &cYour inventory is full."
+ALREADY_ITEM: "&e&lProLobbyEdit&7 >> &cYour already own this item."
+WAIT_CLICKING_ITEM: "&e&lProLobbyEdit&7 >> &cPlease wait before clicking again."
+
+# Others
+LOBBY_SET: "&e&lProLobbyEdit&7 >> &aThe lobby has been set correctly"
+LOBBY_ERROR: "&e&lProLobbyEdit&7 >> &cAn error has occurred, please set the waiting lobby using &6/LobbyEdit setlobby"
+SPAWN: "&e&lProLobbyEdit&7 >> &8you have been teleported"
+NO_PERMISSION: "&e&lProLobbyEdit&7 >> &8You dont have &cpermission"
+JOIN_SERVER: "&8(&e+&8) &6<player> &8join the server"
+QUIT_SERVER: "&8(&c-&8) &e<player> &8left the server"
+DENY_MESSAGE: "&e&lProLobbyEdit&7 >> &8You are not permitted to use this command."
+WHEN_BREAKING: "&e&lProLobbyEdit&7 >> &8You can not break in this world!"
+COMMAND_DISABLE: "&e&lProLobbyEdit&7 >> &8This command is disabled"
+AUTO_FLY_MSG: "&e&lProLobbyEdit&7 >> &8AutoFly is &aenable!"
+UNKNOWN_COMMAND: "&e&lProLobbyEdit&7 >> &eUnknown &ccommand use &e/LobbyEdit"
+
+# KICK_MESSAGE_PROTECT_IP: "&e&lProLobbyEdit&7 >> &cYou are Not permitted to use this IP"
+KICK_MESSAGE_SPAMMING: "&7>> &e&lProLobbyEdit&7 << | &cYou have been kicked Server | &eBy Spamming The Message You Must Wait A Time To Talk"
+
+# Chat Control
+CHAT_ENABLE: "&e&lProLobbyEdit&7 >> &aChat Enable"
+CHAT_DISABLE: "&e&lProLobbyEdit&7 >> &aChat Disable"
+NOT_SEND_LINKS: "&e&lProLobbyEdit&7 >> &cIt is not allowed to send links"
+NOT_SEND_WORKS: "&e&lProLobbyEdit&7 >> &cPlease do not use that bad Word on Our Server"
+BAT_WORKS_USE: "&e&lProLobbyEdit&7 >> &cPlayer &e<name> &cIs Breaking Server Rules &7>> &9<work>"
+SEND_WORKS_ADDS: "&e&lProLobbyEdit&7 >> &aYou have added a Word to the Black List &7>> &a<work>"
+ANTI_SPAM: 
+- "&8&m=---------------------------="
+- " "
+- "&e&lProLobbyEdit&7 >> &cWait &a<time>&c seconds(s)!"
+- " "
+- "&8&m=---------------------------="
+
+#Void 
+SET_VOID_SPAWN: "&e&lProLobbyEdit&7 >> &8The spawn of VoidTP has been successfully placed!"
+SET_VOID_SPAWN_ERRONEO: "&e&lProLobbyEdit&7 >> &8The spawn of erroneo!"
+SET_VOID_WORLD: "&e&lProLobbyEdit&7 >> &8The World of VoidTP has been successfully placed!"
+TELEPORT_VOID_WORLD: "&e&lProLobbyEdit&7 >> &8Teleported successfully!"
+
+# Staffs Messages
+CHAT_STAFF: "&8[&c&lSTAFF&7-&c&lCHAT&8] &f<player> &7>> &r<message>"
+STAFF_JOIN: "&9Staff &a&l<staff> &7Join &a&l+"
+STAFF_LEAVE: "&9Staff &c&l<staff> &7Leave &4&l-"
+STAFF_CHAT_DISABLE: "&cSorry, but this function is disabled"
+VANISH_MESSAGE_STAFF_DESACTIVE: "&8[&c&lSTAFF&8] &a<name> &7It has been deactivated &e&lVanish"
+VANISH_MESSAGE_STAFF_ACTIVE: "&8[&c&lSTAFF&8] &a<name> &7Has been activated &e&lVanish"
+MENU_ONLINE_STAFFS:
+  ROW: 3
+  NAME: "&cPlayerCount"
+  NAME_HEAD: "&b<name> &7>> &8[&cStaff&8]"
+  LORE_HEAD:
+  - " "
+  - "&8&l&m=-------------------------------="
+  - " "
+  - " &8[&c&lRango&8] &7>> &a&l%vault_prefix%"
+  - " "
+  - "&8&l&m=-------------------------------="
+  - " "
+
+# Message when Deleting the Chat
+CHAT_CLEAR:
+- "&7&m-------------------------"
+- ""
+- "&e<player> &7Cleared Global Chat"
+- ""
+- "&7&m-------------------------"
+
+# Server Settings
+WHITELIST: "&e&lProLobbyEdit&7 >> &8Whitelist activated"
+SERVER_FULL: "&e&lProLobbyEdit&7 >> &8Server Full please Try Later"
+
+# Titles && SubTitles
+JOIN_TITLE: "&eWelcome <player>"
+JOIN_SUBTITLE: "&8-> &a<server_name>"
+
+FLY_ENABLE_TITLE: "&eYou have activated"
+FLY_ENABLE_SUBTITLE: "&7Flight mode"
+ 
+FLY_DISABLE_TITLE: "&eYou have deactivated"
+FLY_DISABLE_SUBTITLE: "&7Flight mode"
+
+GAMEMODE_CREATIVE_TITLE: "&7Now you are in"
+GAMEMODE_CREATIVE_SUBTITLE: "&9&lGM &8-> &a&l1"
+
+GAMEMODE_SURVIVAL_TITLE: "&7Now you are in"
+GAMEMODE_SURVIVAL_SUBTITLE: "&9&lGM &8-> &a&l0"
+
+GAMEMODE_SPECTATOR_TITLE: "&7Now you are in"
+GAMEMODE_SPECTATOR_SUBTITLE: "&9&lGM &8-> &a&l3"
+
+GAMEMODE_ADVENTURE_TITLE: "&7Now you are in"
+GAMEMODE_ADVENTURE_SUBTITLE: "&9&lGM &8-> &a&l2"
+
+# Commands
+VANISH_ENABLE: "&e&lProLobbyEdit&7 >> &8Vanish &a&lEnable!"
+VANISH_DISABLE: "&e&lProLobbyEdit&7 >> &8Vanish &c&lDisable!"
+VANISH_NOT_PERMISSION: "&e&lProLobbyEdit&7 >> &8You dont have &cpermission &8to use &9&l&nVanish!"
+
+GAMEMODE_SURVIVAL: "&e&lProLobbyEdit&7 >> &8Your Game Mode Changed To &6&lSURVIVAL&e!"
+GAMEMODE_ADVENTURE: "&e&lProLobbyEdit&7 >> &8Your Game Mode Changed To &6&lADVENTURE&e!"
+GAMEMODE_SPECTATOR: "&e&lProLobbyEdit&7 >> &8Your Game Mode Changed To &6&lSPECTATOR&e!"
+GAMEMODE_CREATIVE: "&e&lProLobbyEdit&7 >> &8Your Game Mode Changed To &6&lCREATIVE&e!"
+GAMEMODE_NO_PERM: "&e&lProLobbyEdit&7 >> &8You dont have &cpermission &8to use &6&lGameMode!"
+GAMEMODE_UTILIZE: "&e&lProLobbyEdit&7 >> &8Use &e/gm &8<&e1, 2, 3, 0&8>!"
+
+FLY_ENABLE: "&e&lProLobbyEdit&7 >> &8Fly &a&lEnable!"
+FLY_DISABLE: "&e&lProLobbyEdit&7 >> &8Fly &c&lDisable!"
+FLY_NO_PERMISSION: "&e&lProLobbyEdit&7 >> &8You dont have &cpermission &8to use &a&lFly!"
+
+BROADCAST_PREFIX: "&e&lLobbyAlert&7 >> &r"
+BROADCAST_ERROR: "&e&lProLobbyEdit&7 >> &8use &c/alert &8<&emensaje&8> &7to send a message to the entire server."
+BROADCAST_NOT_PERMISSION: "&e&lProLobbyEdit&7 >> &8You dont have &cpermission &8to use &b&lLobbyAlert!"
+
+# MOTD JOIN
+MOTD_JOIN_SERVER:
+- "&f&m                                               "
+- ""
+- "&e- &7Welcome The Server"
+- "&e- &a<player> &7edit the config and &aLang.yml"
+- ""
+- "&f&m                                               "
+
+# * You Can Add In This Section Messages When Entering 
+# * For Fully Editable Players Follow the Instructions.
+# * In the TEXTHOVER you can use These types of messages For example:
+#
+# * CommandExample:
+# *   Text: "&aEXAMPLE"
+# *   Hover: "Click for Command"
+# *   Action: COMMAND
+# *   Command: "Tell: &e&lProLobbyEdit"
+# * This type of message is also as an example:
+#
+# * TwitterCombito:
+# *   Text: "&aEXAMPLE"
+# *   Hover: "Click for Command"
+# *   Url: "@CombitoRushYT"
+# *   Action: URL
+
+
+TEXTHOVER:
+- "&7      >>>      &eSpigotMC &fNetwork    &7<<<"
+- "&e       Social networks &7(&eRight click&7)"
+EDIT:
+  Twitter: 
+    Text: "   &aTwitter &8&l& "
+    Hover: "&aClick to join the &3Twitter"
+    Action: URL
+    Url: "https://www.spigotmc.org/"
+  Web:
+    Text: "&aWeb &8&l& "
+    Hover: "&aClick to join the &2Web"
+    Action: URL
+    Url: "https://www.spigotmc.org/"
+  Shop: 
+    Text: "&aShop &8&l& "
+    Hover: "&aClick to join the &6Shop"
+    Action: URL
+    Url: "https://www.spigotmc.org/"
+  Discord: 
+    Text: "&aDiscord"
+    Hover: "&aClick to join the &dDiscord"
+    Action: URL
+    Url: "https://www.spigotmc.org/"

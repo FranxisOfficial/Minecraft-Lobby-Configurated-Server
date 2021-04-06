@@ -1,0 +1,153 @@
+recompensas1:
+  location: Lobby2, -2549.503, 80.016, 1354.530
+  lines:
+  - '&b&lRECOMPENSAS'
+  - '&f'
+  - '&7Recoge tu recompensa &adiaria &7gratis'
+  - '&7Podras obtener muchos nuevos &acosmeticos'
+  - '&8'
+  - '&c&lPROXIMAMENTE'
+votar:
+  location: Lobby2, -2541.300, 80.016, 1354.700
+  lines:
+  - '&3&lVOTE DIARIO'
+  - '&7Vota aqui por la &anetwork gratis'
+  - '&7Podras ganarte un &6&lVIP &7gratis por &74h'
+  - '&8'
+  - '&c&lPROXIMAMENTE'
+skywars:
+  location: Hubsito, -0.506, 67.016, -53.501
+  lines:
+  - '&b&lSKYWARS'
+  - '&fConectados &8» &c{online: Skywars}'
+  - '&fEstado &8» &4&lMANTENIMIENTO'
+  - '&8● &e¡Click derecho para conectarte! &8●'
+survival:
+  location: Hubsito, -8.468, 67.000, -53.478
+  lines:
+  - '&2&lSURVIVAL'
+  - '&fConectados &8» &c{online: Survival}'
+  - '&fEstado &8» &a&lDISPONIBLE'
+  - '&8● &e¡Click derecho para conectarte! &8●'
+kitpvp:
+  location: LOBBYP2, -6.611, 145.500, 38.629
+  lines:
+  - '&2&lKITPVP'
+  - '&8'
+  - '&e¡Jugadores en línea: &60&e!'
+  - '&fEstado &8» &6&lBETA'
+  - '&8PvP'
+knockbackffa:
+  location: LOBBYP2, 13.610, 145.500, 38.596
+  lines:
+  - '&6&lKNOCKBACKFFA'
+  - '&8'
+  - '&e¡Jugadores en línea &60&e!'
+  - '&fEstado &8» &4&lCERRADO'
+  - '&8Pelea con Palos'
+roleplay:
+  location: LOBBYP2, -8.470, 145.500, 35.452
+  lines:
+  - '&9&lROLEPLAY'
+  - '&8'
+  - '&e¡Jugadores en línea: &60&e!'
+  - '&fEstado &8» &4&lCERRADO'
+  - '&8FIVEM'
+arenapvp:
+  location: LOBBYP2, 9.346, 145.500, 44.524
+  lines:
+  - '&5&lARENAPVP'
+  - '&8'
+  - '&e¡Jugadores en línea: &60&e!'
+  - '&fEstado &8» &7&lEN DESARROLLO'
+  - '&8Duelos'
+creativo:
+  location: LOBBYP2, 11.452, 145.500, 41.565
+  lines:
+  - '&d&lCREATIVO'
+  - '&8'
+  - '&e¡Jugadores en línea: &60&e!'
+  - '&fEstado &8» &6&lEN EL HORNO'
+  - '&8Parcelas'
+prox1:
+  location: LOBBYP2, 15.638, 145.500, 35.422
+  lines:
+  - '&3&lSKYBLOCK'
+  - '&8'
+  - '&e¡Jugadores en línea: &60&e!'
+  - '&fEstado &8» &c&lMANTENIMIENTO'
+  - '&8Tú propia isla'
+parkour:
+  location: Hubsito, -4.501, 65.155, -50.575
+  lines:
+  - '&8» &d&l&nPARKOUR&r &8«'
+  - '&e¡Pisa la placa para empezar!'
+bienvenida:
+  location: LOBBYP2, 1.922, 162.489, 5.355
+  lines:
+  - '&f&lLOBBY &8&ki&r &5&lSPACEMC'
+  - '&8'
+  - '&8&m-------------------------------'
+  - '&7Bienvenid&a@ &9{player} &7a &5&lSPACEMC &3&lNETWORK &7estamos'
+  - '&7por seguros que aquí te &adivertiras muchisimo &7a &adiario'
+  - '&7por nuestra &avariedad &7de cosas en la &aNETWORK'
+  - '&8'
+  - '&e&l➜ &6Características nuevas:'
+  - '&8» &fNuevos cósmeticos'
+  - '&8» &fMenús y items exclusivos'
+  - '&8» &fLobbies actualizados y nuevos!'
+  - '&8» &fVariedad de Modalidades en &c&lMANTENIMIENTO'
+  - '&8» &fNuevo &b&lSKYWARS &fcon variedad de cosas'
+  - '&8'
+  - '&7Y mucho más en &8&kii&r &5&lSPACEMC &b&lNETWORK &8&kii&r'
+  - '&8&m-------------------------------'
+  - '&8'
+  - '&7&o((Temporada 1))'
+  - '&6&l&nPODERES ESTELARES &e✰'
+  - '&3&lIP &8&l: &umc.spacemc.es'
+  - 'ICON: diamond'
+soytemple:
+  location: Hubsito, -4.467, 67.000, -59.508
+  lines:
+  - '&3&lSERIE DE SOYTEMPLE'
+  - '&fConectados &8» &c0'
+  - '&fEstado &8» &d&lWHITELIST'
+  - '&8● &eClick derecho para conectarte &8●'
+repartidor:
+  location: Hubsito, -7.523, 66.500, -7.487
+  lines:
+  - '&e&lBIENVENIDO A &d&lMEGACRAFT &3&l2.0'
+  - '&b¡Click derecho para abrir!'
+bienvenido:
+  location: Hubsito, -1.468, 66.500, -7.553
+  lines:
+  - '&e&lBIENVENIDO A &d&lMEGACRAFT &3&l2.0'
+  - '&b¡Click derecho para abrir!'
+proximamente1:
+  location: Hubsito, -12.507, 67.000, -51.528
+  lines:
+  - '&4&lPROXIMAMENTE'
+  - '&fConectados &8» &d0'
+  - '&fEstado &8» &c&lDESCONOCIDO'
+  - '&8● &e¡Muy pronto la modalidad! &8●'
+proximamente2:
+  location: Hubsito, -16.515, 67.000, -48.594
+  lines:
+  - '&c&lPROXIMAMENTE'
+  - '&fConectados &8» &50'
+  - '&fEstado &8» &4&lDESCONOCIDO'
+  - '&8● &e¡Muy pronto la modalidad! &8●'
+proximamente3:
+  location: Hubsito, 3.512, 67.000, -51.539
+  lines:
+  - '&c&lSURVIVAL ANARQUICO'
+  - '&fConectados &8» &50'
+  - '&fEstado &8» &4&lDESCONOCIDO'
+  - '&8● &e¡Muy pronto la modalidad! &8●'
+proximamente4:
+  location: Hubsito, 7.494, 67.000, -48.569
+  lines:
+  - '&4&lPROXIMAMENTE'
+  - '&fConectados &8» &d0'
+  - '&fEstado &8» &c&lDESCONOCIDO'
+  - '&8● &e¡Muy pronto la modalidad! &8●'

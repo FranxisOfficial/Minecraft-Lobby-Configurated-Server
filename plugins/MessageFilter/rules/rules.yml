@@ -1,0 +1,12 @@
+test:
+  type: EQUAL
+  message-mask: testmessage
+  replace-to: test-replacement
+  cooldown-time: 10s
+  use-formating: false
+LOBBY:
+  type: EQUAL
+  message-mask: '&c&lHey! &7Sorry, but you can''t break that block here.'
+  replace-to: '&5&lLOBBY &8&l» &cNo puedes romper este bloque aquí!'
+  cooldown-time: ''
+  use-formating: true

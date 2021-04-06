@@ -1,0 +1,78 @@
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+# PLUGIN MESSAGES
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+
+Messages:
+  GENERAL:
+    PREFIX: "&d&lSTAFF &8»"
+    NO_PERMISSION: "%prefix% &cEse comando no existe!"
+    CUSTOM_COMMAND_NO_PERMISSION: "&cEse comando no existe!"
+    INVALID_PLAYER: "%prefix% &e%player% &ano está conectado en el lobby!"
+    CONFIG_RELOAD: "%prefix% &aTodos los archivos de configuración se han vuelto a cargar en &e%time%ms"
+    COOLDOWN_ACTIVE: "%prefix% &eTu debes esperar &a%time%s &eantes de hacer esto de nuevo!"
+
+  GAMEMODE:
+    GAMEMODE_CHANGE: "%prefix% &fTu &cmodo de juego &fha sido cambiado a &c%gamemode%"
+    GAMEMODE_CHANGE_OTHER: "%prefix% &fHas cambiado el modo de juego de &c%player% &fa &c%gamemode%"
+    GAMEMODE_INVALID: "%prefix% &c%gamemode% &fno es un modo de juego!"
+
+  VANISH:
+    ENABLE: "%prefix% &fTu modo &cvanish &fha sido &a&l&nACTIVADO"
+    DISABLE: "%prefix% &fTu modo de &cvanish &fha sido &c&l&nDESACTIVADO"
+
+  FLIGHT:
+    ENABLE: "%prefix% &aYou have enabled flight"
+    DISABLE: "%prefix% &cYou have disabled flight"
+    ENABLE_OTHER: "%prefix% &fHas &a&l&nactivado &fel modo de vuelo para &c%player%"
+    DISABLE_OTHER: "%prefix% &fHas &c&l&ndesactivado &fel modo de vuelo para &c%player%"
+
+  PLAYER_HIDER:
+    HIDDEN: "%prefix% &fTu modo de &cvisibilidad &fde jugadores ha sido &c&l&nDESACTIVADA"
+    SHOWN: "%prefix% &fTu modo de &cvisibilidad &fde jugadores ha sido &a&l&nACTIVADA"
+
+  LOBBY:
+    SET_LOBBY: "%prefix% &aHas establecido correctamente un lobby!"
+
+  CHAT:
+    CLEARCHAT: "&d&lCHAT &8» &fEl &cchat &fha sido borrado por &c%player%"
+    CLEARCHAT_PLAYER: "&d&lCHAT &8» &fUn &cStaff &fha borrado el &cchat"
+
+    LOCKED: "&d&lCHAT &8» &fEl &cchat &festa &cbloqueado &factualmente"
+    LOCKED_BROADCAST: "&d&lCHAT &8» &c%player% &facaba de &cbloquear &fel &cchat"
+    UNLOCKED_BROADCAST: "&d&lCHAT &8» &c%player% &facaba de &adesbloquear &fel &cchat"
+
+    ANTI_SWEAR_WORD_BLOCKED: "%prefix% &fEse &cmensaje &facaba de ser &celiminado &fde la &cbase de datos &fde &cinsultos"
+    ANTI_SWEAR_ADMIN_NOTIFY: "%prefix% &c%player% &facaba de intentar decir &8&l> &3%word%"
+
+    COMMAND_BLOCKED: "%prefix% &cEse comando no existe!"
+
+  SCOREBOARD:
+    TOGGLE: "%prefix% &fTienes &c%value% &fel &cscoreboard"
+
+  DOUBLE_JUMP:
+    COOLDOWN_ACTIVE: "%prefix% &fDebes esperarte &c%time% &fpara volver a utilizar el &cdoble salto"
+
+  WORLD_EVENT_MODIFICATIONS:
+    ITEM_DROP: "%prefix% &cNo se le permite dejar artículos."
+    ITEM_PICKUP: "%prefix% &cNo se le permite recoger artículos."
+    BLOCK_PLACE: "%prefix% &cNo está permitido colocar bloques."
+    BLOCK_BREAK: "%prefix% &cNo se le permite romper bloques."
+    BLOCK_INTERACT: "%prefix% &cNo se le permite usar esto."
+    PLAYER_PVP: "%prefix% &cNo puedes jugar pvp aquí."
+
+  HOLOGRAMS:
+    EMPTY: "%prefix% &cNo se pudo encontrar ningún holograma."
+    ALREADY_EXISTS: "%prefix% &cYa hay un holograma con este nombre &7(%name%)&c."
+    INVALID_HOLOGRAM: "%prefix% &cNo hay holograma con este nombre &7(%name%)&c."
+    INVALID_LINE: "%prefix% &cNo se pudo encontrar la línea del holograma."
+
+    SPAWNED: "%prefix% &7Se creó un nuevo holograma con el nombre. &b%name%&7."
+    DESPAWNED: "%prefix% &7Holograma eliminado con nombre &b%name%&7."
+    MOVED: "%prefix% &7Holograma movido &b%name%&7."
+
+    LINE_SET: "%prefix% &7Establecer línea &b%line%&7."
+    ADDED_LINE: "%prefix% &7Añadida nueva línea."
+    REMOVED_LINE: "%prefix% &7Línea eliminada &b%line%&7."
+
+  ANTI_WORLD_DOWNLOADER:
+    ADMIN_NOTIFY: "%prefix% &f%player% &cse ha unido al World Downloader Mod, su capacidad para usarlo ha sido restringida por nuestros sistemas."

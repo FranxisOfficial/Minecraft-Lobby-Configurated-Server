@@ -1,0 +1,19 @@
+lastAccountName: PosDuck
+timestamps:
+  login: 1617446243476
+  logout: 1617446585594
+ipAddress: 47.63.56.43
+lastlocation:
+  world: Hubsito
+  x: 15.173219654701658
+  y: 67.25220334025373
+  z: -34.98269271036706
+  yaw: 44.351257
+  pitch: 16.548155
+logoutlocation:
+  world: Hubsito
+  x: -4.105237426453849
+  y: 63.99999999999999
+  z: -59.01691875653785
+  yaw: 318.12503
+  pitch: 29.092937

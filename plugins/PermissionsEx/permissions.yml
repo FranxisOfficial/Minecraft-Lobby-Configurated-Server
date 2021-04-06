@@ -1,0 +1,1133 @@
+groups:
+  Usuario:
+    permissions:
+    - chestcommands.open.Modalidades.yml
+    - gadgetsmenu.menuselector
+    - gadgetsmenu.mysteryboxes.open.1
+    - gadgetsmenu.mysteryboxes.open.2
+    - gadgetsmenu.mysteryboxes.open.3
+    - gadgetsmenu.mysteryboxes.open.4
+    - gadgetsmenu.mysteryboxes.open.5
+    - gadgetsmenu.multipleboxes.20
+    - gadgetsmenu.multipleboxes.50
+    - gadgetsmenu.multipleboxes.250
+    - gadgetsmenu.animations.random
+    - gadgetsmenu.animations.normal
+    - gadgetsmenu.animations.crafting
+    - gadgetsmenu.animations.none
+    - gadgetsmenu.animations.star
+    - gadgetsmenu.animations.countdown
+    - gadgetsmenu.animations.summer
+    - gadgetsmenu.animations.hallowwen
+    - gadgetsmenu.animations.holiday
+    - chestcommands.open.Redessociales.yml
+    - chestcommands.open.Megacraft.yml
+    - chestcommands.open.Lobbies.yml
+    - music.list
+    - music.random
+    - music.suffle
+    - music.suffle.skip
+    - music.radio
+    - citizens.use
+    - commandnpc.use
+    - gadgetsmenu.cooldown.bypass
+    options:
+      prefix: '&3'
+      default: true
+  VIP:
+    permissions:
+    - permiso.afly
+    - chestcommands.open.Modalidades.yml
+    - gadgetsmenu.menuselector
+    - gadgetsmenu.mysteryboxes.open.1
+    - gadgetsmenu.mysteryboxes.open.2
+    - gadgetsmenu.mysteryboxes.open.3
+    - gadgetsmenu.mysteryboxes.open.4
+    - gadgetsmenu.mysteryboxes.open.5
+    - gadgetsmenu.multipleboxes.20
+    - gadgetsmenu.multipleboxes.50
+    - gadgetsmenu.multipleboxes.250
+    - gadgetsmenu.animations.random
+    - gadgetsmenu.animations.normal
+    - gadgetsmenu.animations.crafting
+    - gadgetsmenu.animations.none
+    - gadgetsmenu.animations.star
+    - gadgetsmenu.animations.countdown
+    - gadgetsmenu.animations.summer
+    - gadgetsmenu.animations.hallowwen
+    - gadgetsmenu.animations.holiday
+    - chestcommands.open.Redessociales.yml
+    - chestcommands.open.Megacraft.yml
+    - chestcommands.open.Lobbies.yml
+    - music.list
+    - music.random
+    - music.suffle
+    - music.suffle.skip
+    - music.radio
+    - citizens.use
+    - commandnpc.use
+    - gadgetsmenu.cooldown.bypass
+    - gadgetsmenu.mysteryboxes.open.*
+    options:
+      prefix: '&e&lVIP &f'
+      default: false
+  VIP+:
+    permissions:
+    - permiso.afly
+    - chestcommands.open.Modalidades.yml
+    - gadgetsmenu.menuselector
+    - gadgetsmenu.mysteryboxes.open.1
+    - gadgetsmenu.mysteryboxes.open.2
+    - gadgetsmenu.mysteryboxes.open.3
+    - gadgetsmenu.mysteryboxes.open.4
+    - gadgetsmenu.mysteryboxes.open.5
+    - gadgetsmenu.multipleboxes.20
+    - gadgetsmenu.multipleboxes.50
+    - gadgetsmenu.multipleboxes.250
+    - gadgetsmenu.animations.random
+    - gadgetsmenu.animations.normal
+    - gadgetsmenu.animations.crafting
+    - gadgetsmenu.animations.none
+    - gadgetsmenu.animations.star
+    - gadgetsmenu.animations.countdown
+    - gadgetsmenu.animations.summer
+    - gadgetsmenu.animations.hallowwen
+    - gadgetsmenu.animations.holiday
+    - chestcommands.open.Redessociales.yml
+    - chestcommands.open.Megacraft.yml
+    - chestcommands.open.Lobbies.yml
+    - music.list
+    - music.random
+    - music.suffle
+    - music.suffle.skip
+    - music.radio
+    - citizens.use
+    - commandnpc.use
+    - gadgetsmenu.cooldown.bypass
+    - gadgetsmenu.mysteryboxes.open.*
+    options:
+      prefix: '&2&lVIP+ &f'
+      default: false
+  MEGA:
+    permissions:
+    - permiso.afly
+    - chestcommands.open.Modalidades.yml
+    - gadgetsmenu.menuselector
+    - gadgetsmenu.mysteryboxes.open.1
+    - gadgetsmenu.mysteryboxes.open.2
+    - gadgetsmenu.mysteryboxes.open.3
+    - gadgetsmenu.mysteryboxes.open.4
+    - gadgetsmenu.mysteryboxes.open.5
+    - gadgetsmenu.multipleboxes.20
+    - gadgetsmenu.multipleboxes.50
+    - gadgetsmenu.multipleboxes.250
+    - gadgetsmenu.animations.random
+    - gadgetsmenu.animations.normal
+    - gadgetsmenu.animations.crafting
+    - gadgetsmenu.animations.none
+    - gadgetsmenu.animations.star
+    - gadgetsmenu.animations.countdown
+    - gadgetsmenu.animations.summer
+    - gadgetsmenu.animations.hallowwen
+    - gadgetsmenu.animations.holiday
+    - chestcommands.open.Redessociales.yml
+    - chestcommands.open.Megacraft.yml
+    - chestcommands.open.Lobbies.yml
+    - music.list
+    - music.random
+    - music.suffle
+    - music.suffle.skip
+    - music.radio
+    - citizens.use
+    - commandnpc.use
+    - gadgetsmenu.cooldown.bypass
+    - gadgetsmenu.mysteryboxes.open.*
+    options:
+      prefix: '&5&lMEGA &f'
+      default: false
+  MEGA+:
+    permissions:
+    - permiso.afly
+    - chestcommands.open.Modalidades.yml
+    - gadgetsmenu.menuselector
+    - gadgetsmenu.mysteryboxes.open.1
+    - gadgetsmenu.mysteryboxes.open.2
+    - gadgetsmenu.mysteryboxes.open.3
+    - gadgetsmenu.mysteryboxes.open.4
+    - gadgetsmenu.mysteryboxes.open.5
+    - gadgetsmenu.multipleboxes.20
+    - gadgetsmenu.multipleboxes.50
+    - gadgetsmenu.multipleboxes.250
+    - gadgetsmenu.animations.random
+    - gadgetsmenu.animations.normal
+    - gadgetsmenu.animations.crafting
+    - gadgetsmenu.animations.none
+    - gadgetsmenu.animations.star
+    - gadgetsmenu.animations.countdown
+    - gadgetsmenu.animations.summer
+    - gadgetsmenu.animations.hallowwen
+    - gadgetsmenu.animations.holiday
+    - chestcommands.open.Redessociales.yml
+    - chestcommands.open.Megacraft.yml
+    - chestcommands.open.Lobbies.yml
+    - music.list
+    - music.random
+    - music.suffle
+    - music.suffle.skip
+    - music.radio
+    - citizens.use
+    - commandnpc.use
+    - gadgetsmenu.cooldown.bypass
+    - gadgetsmenu.mysteryboxes.open.*
+    - gadgetsmenu.cosmetics.*
+    options:
+      prefix: '&9&lMEGA+ &f'
+      default: false
+  Streamer:
+    permissions:
+    - permiso.afly
+    - chestcommands.open.Modalidades.yml
+    - gadgetsmenu.menuselector
+    - gadgetsmenu.mysteryboxes.open.1
+    - gadgetsmenu.mysteryboxes.open.2
+    - gadgetsmenu.mysteryboxes.open.3
+    - gadgetsmenu.mysteryboxes.open.4
+    - gadgetsmenu.mysteryboxes.open.5
+    - gadgetsmenu.multipleboxes.20
+    - gadgetsmenu.multipleboxes.50
+    - gadgetsmenu.multipleboxes.250
+    - gadgetsmenu.animations.random
+    - gadgetsmenu.animations.normal
+    - gadgetsmenu.animations.crafting
+    - gadgetsmenu.animations.none
+    - gadgetsmenu.animations.star
+    - gadgetsmenu.animations.countdown
+    - gadgetsmenu.animations.summer
+    - gadgetsmenu.animations.hallowwen
+    - gadgetsmenu.animations.holiday
+    - chestcommands.open.Redessociales.yml
+    - chestcommands.open.Megacraft.yml
+    - chestcommands.open.Lobbies.yml
+    - music.list
+    - music.random
+    - music.suffle
+    - music.suffle.skip
+    - music.radio
+    - citizens.use
+    - commandnpc.use
+    - gadgetsmenu.cosmetics.*
+    - gadgetsmenu.cooldown.bypass
+    - gadgetsmenu.mysteryboxes.open.*
+    options:
+      prefix: '&d&lSTREAMER &9'
+      default: false
+  MiniYT:
+    permissions:
+    - permiso.afly
+    - chestcommands.open.Modalidades.yml
+    - gadgetsmenu.menuselector
+    - gadgetsmenu.mysteryboxes.open.1
+    - gadgetsmenu.mysteryboxes.open.2
+    - gadgetsmenu.mysteryboxes.open.3
+    - gadgetsmenu.mysteryboxes.open.4
+    - gadgetsmenu.mysteryboxes.open.5
+    - gadgetsmenu.multipleboxes.20
+    - gadgetsmenu.multipleboxes.50
+    - gadgetsmenu.multipleboxes.250
+    - gadgetsmenu.animations.random
+    - gadgetsmenu.animations.normal
+    - gadgetsmenu.animations.crafting
+    - gadgetsmenu.animations.none
+    - gadgetsmenu.animations.star
+    - gadgetsmenu.animations.countdown
+    - gadgetsmenu.animations.summer
+    - gadgetsmenu.animations.hallowwen
+    - gadgetsmenu.animations.holiday
+    - chestcommands.open.Redessociales.yml
+    - chestcommands.open.Megacraft.yml
+    - chestcommands.open.Lobbies.yml
+    - music.list
+    - music.random
+    - music.suffle
+    - music.suffle.skip
+    - music.radio
+    - citizens.use
+    - commandnpc.use
+    - gadgetsmenu.cooldown.bypass
+    - gadgetsmenu.mysteryboxes.open.*
+    - gadgetsmenu.cosmetics.*
+    options:
+      prefix: '&c&lMINI&f&lYT &e'
+      default: false
+  YT:
+    permissions:
+    - permiso.afly
+    - chestcommands.open.Modalidades.yml
+    - gadgetsmenu.menuselector
+    - gadgetsmenu.mysteryboxes.open.1
+    - gadgetsmenu.mysteryboxes.open.2
+    - gadgetsmenu.mysteryboxes.open.3
+    - gadgetsmenu.mysteryboxes.open.4
+    - gadgetsmenu.mysteryboxes.open.5
+    - gadgetsmenu.multipleboxes.20
+    - gadgetsmenu.multipleboxes.50
+    - gadgetsmenu.multipleboxes.250
+    - gadgetsmenu.animations.random
+    - gadgetsmenu.animations.normal
+    - gadgetsmenu.animations.crafting
+    - gadgetsmenu.animations.none
+    - gadgetsmenu.animations.star
+    - gadgetsmenu.animations.countdown
+    - gadgetsmenu.animations.summer
+    - gadgetsmenu.animations.hallowwen
+    - gadgetsmenu.animations.holiday
+    - chestcommands.open.Redessociales.yml
+    - chestcommands.open.Megacraft.yml
+    - chestcommands.open.Lobbies.yml
+    - music.list
+    - music.random
+    - music.suffle
+    - music.suffle.skip
+    - music.radio
+    - gadgetsmenu.cosmetics.*
+    - citizens.use
+    - commandnpc.use
+    - gadgetsmenu.cooldown.bypass
+    - gadgetsmenu.mysteryboxes.open.*
+    options:
+      prefix: '&4&lY&f&lT &6'
+      default: false
+  Famoso:
+    permissions:
+    - permiso.afly
+    - chestcommands.open.Modalidades.yml
+    - gadgetsmenu.menuselector
+    - gadgetsmenu.mysteryboxes.open.1
+    - gadgetsmenu.mysteryboxes.open.2
+    - gadgetsmenu.mysteryboxes.open.3
+    - gadgetsmenu.mysteryboxes.open.4
+    - gadgetsmenu.mysteryboxes.open.5
+    - gadgetsmenu.multipleboxes.20
+    - gadgetsmenu.multipleboxes.50
+    - gadgetsmenu.multipleboxes.250
+    - gadgetsmenu.animations.random
+    - gadgetsmenu.animations.normal
+    - gadgetsmenu.animations.crafting
+    - gadgetsmenu.animations.none
+    - gadgetsmenu.animations.star
+    - gadgetsmenu.animations.countdown
+    - gadgetsmenu.animations.summer
+    - gadgetsmenu.animations.hallowwen
+    - gadgetsmenu.animations.holiday
+    - chestcommands.open.Redessociales.yml
+    - chestcommands.open.Megacraft.yml
+    - chestcommands.open.Lobbies.yml
+    - music.list
+    - music.random
+    - music.suffle
+    - music.suffle.skip
+    - music.radio
+    - gadgetsmenu.cosmetics.*
+    - citizens.use
+    - commandnpc.use
+    - gadgetsmenu.cooldown.bypass
+    - gadgetsmenu.mysteryboxes.open.*
+    options:
+      prefix: '&d&lFAMOSO &a'
+      default: false
+  Partner:
+    permissions:
+    - chestcommands.open.Modalidades.yml
+    - gadgetsmenu.menuselector
+    - gadgetsmenu.mysteryboxes.open.1
+    - gadgetsmenu.cosmetics.*
+    - gadgetsmenu.mysteryboxes.open.2
+    - gadgetsmenu.mysteryboxes.open.3
+    - gadgetsmenu.mysteryboxes.open.4
+    - gadgetsmenu.mysteryboxes.open.5
+    - gadgetsmenu.multipleboxes.20
+    - gadgetsmenu.multipleboxes.50
+    - gadgetsmenu.multipleboxes.250
+    - gadgetsmenu.animations.random
+    - gadgetsmenu.animations.normal
+    - gadgetsmenu.animations.crafting
+    - gadgetsmenu.animations.none
+    - gadgetsmenu.animations.star
+    - gadgetsmenu.animations.countdown
+    - gadgetsmenu.animations.summer
+    - gadgetsmenu.animations.hallowwen
+    - gadgetsmenu.animations.holiday
+    - chestcommands.open.Redessociales.yml
+    - chestcommands.open.Megacraft.yml
+    - chestcommands.open.Lobbies.yml
+    - music.list
+    - music.random
+    - music.suffle
+    - music.suffle.skip
+    - music.radio
+    - citizens.use
+    - commandnpc.use
+    - gadgetsmenu.cooldown.bypass
+    - gadgetsmenu.mysteryboxes.open.*
+    - essentials.fly
+    options:
+      prefix: '&9&lPARTNER &c'
+      default: false
+  BUILDER:
+    permissions:
+    - permiso.afly
+    - chestcommands.open.Modalidades.yml
+    - gadgetsmenu.menuselector
+    - gadgetsmenu.mysteryboxes.open.1
+    - gadgetsmenu.mysteryboxes.open.2
+    - gadgetsmenu.mysteryboxes.open.3
+    - gadgetsmenu.mysteryboxes.open.4
+    - gadgetsmenu.mysteryboxes.open.5
+    - gadgetsmenu.multipleboxes.20
+    - gadgetsmenu.cosmetics.*
+    - gadgetsmenu.multipleboxes.50
+    - gadgetsmenu.multipleboxes.250
+    - gadgetsmenu.animations.random
+    - gadgetsmenu.animations.normal
+    - gadgetsmenu.animations.crafting
+    - gadgetsmenu.animations.none
+    - gadgetsmenu.animations.star
+    - gadgetsmenu.animations.countdown
+    - gadgetsmenu.animations.summer
+    - gadgetsmenu.animations.hallowwen
+    - gadgetsmenu.animations.holiday
+    - chestcommands.open.Redessociales.yml
+    - chestcommands.open.Megacraft.yml
+    - chestcommands.open.Lobbies.yml
+    - music.list
+    - music.random
+    - music.suffle
+    - music.suffle.skip
+    - music.radio
+    - citizens.use
+    - commandnpc.use
+    - gadgetsmenu.cooldown.bypass
+    - gadgetsmenu.mysteryboxes.open.*
+    - '*'
+    options:
+      prefix: '&3&lBUILDER &6'
+      default: false
+  Helper:
+    permissions:
+    - permiso.afly
+    - skinsrestorer.clean
+    - skinsrestorer.clear
+    - skinsrestorer.use
+    - skinsrestorer.set
+    - chestcommands.open.Modalidades.yml
+    - gadgetsmenu.menuselector
+    - gadgetsmenu.mysteryboxes.open.1
+    - gadgetsmenu.mysteryboxes.open.2
+    - gadgetsmenu.mysteryboxes.open.3
+    - gadgetsmenu.mysteryboxes.open.4
+    - gadgetsmenu.mysteryboxes.open.5
+    - gadgetsmenu.multipleboxes.20
+    - gadgetsmenu.multipleboxes.50
+    - gadgetsmenu.multipleboxes.250
+    - gadgetsmenu.animations.random
+    - gadgetsmenu.animations.normal
+    - gadgetsmenu.animations.crafting
+    - gadgetsmenu.animations.none
+    - gadgetsmenu.animations.star
+    - gadgetsmenu.animations.countdown
+    - gadgetsmenu.animations.summer
+    - gadgetsmenu.animations.hallowwen
+    - gadgetsmenu.animations.holiday
+    - chestcommands.open.Redessociales.yml
+    - chestcommands.open.Megacraft.yml
+    - chestcommands.open.Lobbies.yml
+    - music.list
+    - gadgetsmenu.cosmetics.*
+    - music.random
+    - music.suffle
+    - music.suffle.skip
+    - music.radio
+    - citizens.use
+    - commandnpc.use
+    - gadgetsmenu.cooldown.bypass
+    - gadgetsmenu.mysteryboxes.open.*
+    - litebans.mute
+    - litebans.mutechat
+    - litebans.lockdown
+    - litebans.clearchat
+    - litebans.history
+    - litebans.unmute
+    - litebans.unwarn
+    - litebans.warn
+    options:
+      prefix: '&e&lHELPER &3'
+      default: false
+  Mod:
+    permissions:
+    - permiso.afly
+    - chestcommands.open.Modalidades.yml
+    - gadgetsmenu.menuselector
+    - gadgetsmenu.mysteryboxes.open.1
+    - gadgetsmenu.mysteryboxes.open.2
+    - gadgetsmenu.mysteryboxes.open.3
+    - gadgetsmenu.mysteryboxes.open.4
+    - gadgetsmenu.mysteryboxes.open.5
+    - gadgetsmenu.multipleboxes.20
+    - gadgetsmenu.multipleboxes.50
+    - gadgetsmenu.multipleboxes.250
+    - gadgetsmenu.cosmetics.*
+    - gadgetsmenu.animations.random
+    - gadgetsmenu.animations.normal
+    - gadgetsmenu.animations.crafting
+    - gadgetsmenu.animations.none
+    - gadgetsmenu.animations.star
+    - gadgetsmenu.animations.countdown
+    - gadgetsmenu.animations.summer
+    - gadgetsmenu.animations.hallowwen
+    - gadgetsmenu.animations.holiday
+    - chestcommands.open.Redessociales.yml
+    - chestcommands.open.Megacraft.yml
+    - chestcommands.open.Lobbies.yml
+    - music.list
+    - music.random
+    - music.suffle
+    - music.suffle.skip
+    - music.radio
+    - citizens.use
+    - commandnpc.use
+    - gadgetsmenu.cooldown.bypass
+    - gadgetsmenu.mysteryboxes.open.*
+    - litebans.ban
+    - litebans.unban
+    - litebans.tempban
+    - litebans.tempmute
+    - litebans.mute
+    - litebans.mutechat
+    - litebans.lockdown
+    - litebans.clearchat
+    - litebans.history
+    - litebans.unmute
+    - litebans.unwarn
+    - litebans.warn
+    options:
+      prefix: '&5&lMOD &6'
+      default: false
+  Admin:
+    permissions:
+    - permiso.afly
+    - chestcommands.open.Modalidades.yml
+    - gadgetsmenu.menuselector
+    - gadgetsmenu.mysteryboxes.open.1
+    - gadgetsmenu.mysteryboxes.open.2
+    - gadgetsmenu.mysteryboxes.open.3
+    - gadgetsmenu.mysteryboxes.open.4
+    - gadgetsmenu.mysteryboxes.open.5
+    - gadgetsmenu.multipleboxes.20
+    - gadgetsmenu.multipleboxes.50
+    - gadgetsmenu.multipleboxes.250
+    - gadgetsmenu.animations.random
+    - gadgetsmenu.animations.normal
+    - gadgetsmenu.animations.crafting
+    - gadgetsmenu.animations.none
+    - gadgetsmenu.animations.star
+    - gadgetsmenu.animations.countdown
+    - gadgetsmenu.animations.summer
+    - gadgetsmenu.animations.hallowwen
+    - gadgetsmenu.animations.holiday
+    - chestcommands.open.Redessociales.yml
+    - chestcommands.open.Megacraft.yml
+    - chestcommands.open.Lobbies.yml
+    - music.list
+    - music.random
+    - music.suffle
+    - music.suffle.skip
+    - music.radio
+    - citizens.use
+    - commandnpc.use
+    - gadgetsmenu.cooldown.bypass
+    - gadgetsmenu.mysteryboxes.open.*
+    - gadgetsmenu.cosmetics.*
+    - litebans.ban
+    - litebans.unban
+    - litebans.tempban
+    - litebans.tempmute
+    - litebans.mute
+    - litebans.mutechat
+    - litebans.lockdown
+    - litebans.clearchat
+    - litebans.history
+    - litebans.unmute
+    - litebans.unwarn
+    - litebans.warn
+    - litebans.staffhistory
+    options:
+      prefix: '&c&lADMIN &b'
+      default: false
+  Dev:
+    permissions:
+    - permiso.afly
+    - chestcommands.open.Modalidades.yml
+    - gadgetsmenu.menuselector
+    - '*'
+    - gadgetsmenu.mysteryboxes.open.1
+    - gadgetsmenu.mysteryboxes.open.2
+    - gadgetsmenu.mysteryboxes.open.3
+    - gadgetsmenu.mysteryboxes.open.4
+    - gadgetsmenu.mysteryboxes.open.5
+    - gadgetsmenu.multipleboxes.20
+    - gadgetsmenu.multipleboxes.50
+    - gadgetsmenu.multipleboxes.250
+    - gadgetsmenu.animations.random
+    - gadgetsmenu.animations.normal
+    - gadgetsmenu.animations.crafting
+    - gadgetsmenu.animations.none
+    - gadgetsmenu.animations.star
+    - gadgetsmenu.animations.countdown
+    - gadgetsmenu.animations.summer
+    - gadgetsmenu.animations.hallowwen
+    - gadgetsmenu.animations.holiday
+    - chestcommands.open.Redessociales.yml
+    - chestcommands.open.Megacraft.yml
+    - chestcommands.open.Lobbies.yml
+    - music.list
+    - music.random
+    - music.suffle
+    - music.suffle.skip
+    - music.radio
+    - citizens.use
+    - commandnpc.use
+    - gadgetsmenu.cooldown.bypass
+    - gadgetsmenu.mysteryboxes.open.*
+    - litebans.ban
+    - litebans.unban
+    - litebans.tempban
+    - litebans.tempmute
+    - litebans.mute
+    - litebans.mutechat
+    - litebans.lockdown
+    - litebans.clearchat
+    - litebans.history
+    - litebans.unmute
+    - litebans.unwarn
+    - litebans.warn
+    options:
+      prefix: '&5&lDEV &3'
+      default: false
+  Manager:
+    permissions:
+    - permiso.afly
+    - chestcommands.open.Modalidades.yml
+    - gadgetsmenu.menuselector
+    - gadgetsmenu.mysteryboxes.open.1
+    - gadgetsmenu.mysteryboxes.open.2
+    - gadgetsmenu.mysteryboxes.open.3
+    - gadgetsmenu.mysteryboxes.open.4
+    - gadgetsmenu.mysteryboxes.open.5
+    - gadgetsmenu.multipleboxes.20
+    - gadgetsmenu.multipleboxes.50
+    - gadgetsmenu.multipleboxes.250
+    - gadgetsmenu.animations.random
+    - gadgetsmenu.animations.normal
+    - gadgetsmenu.animations.crafting
+    - gadgetsmenu.animations.none
+    - gadgetsmenu.animations.star
+    - gadgetsmenu.animations.countdown
+    - gadgetsmenu.animations.summer
+    - gadgetsmenu.animations.hallowwen
+    - gadgetsmenu.animations.holiday
+    - chestcommands.open.Redessociales.yml
+    - chestcommands.open.Megacraft.yml
+    - chestcommands.open.Lobbies.yml
+    - music.list
+    - music.random
+    - music.suffle
+    - music.suffle.skip
+    - music.radio
+    - citizens.use
+    - commandnpc.use
+    - gadgetsmenu.cooldown.bypass
+    - gadgetsmenu.mysteryboxes.open.*
+    - litebans.ban
+    - litebans.unban
+    - litebans.tempban
+    - litebans.tempmute
+    - litebans.mute
+    - litebans.mutechat
+    - litebans.lockdown
+    - litebans.clearchat
+    - litebans.history
+    - litebans.unmute
+    - litebans.unwarn
+    - litebans.warn
+    - '*'
+    options:
+      prefix: '&b&lMANAGER &9'
+      default: false
+  Owner:
+    permissions:
+    - permiso.afly
+    - chestcommands.open.Modalidades.yml
+    - gadgetsmenu.menuselector
+    - gadgetsmenu.mysteryboxes.open.1
+    - gadgetsmenu.mysteryboxes.open.2
+    - gadgetsmenu.mysteryboxes.open.3
+    - gadgetsmenu.mysteryboxes.open.4
+    - gadgetsmenu.mysteryboxes.open.5
+    - gadgetsmenu.multipleboxes.20
+    - gadgetsmenu.multipleboxes.50
+    - gadgetsmenu.multipleboxes.250
+    - gadgetsmenu.animations.random
+    - gadgetsmenu.animations.normal
+    - gadgetsmenu.animations.crafting
+    - gadgetsmenu.animations.none
+    - gadgetsmenu.animations.star
+    - gadgetsmenu.animations.countdown
+    - gadgetsmenu.animations.summer
+    - gadgetsmenu.animations.hallowwen
+    - gadgetsmenu.animations.holiday
+    - chestcommands.open.Redessociales.yml
+    - chestcommands.open.Megacraft.yml
+    - chestcommands.open.Lobbies.yml
+    - music.list
+    - music.random
+    - music.suffle
+    - music.suffle.skip
+    - music.radio
+    - citizens.use
+    - commandnpc.use
+    - gadgetsmenu.cooldown.bypass
+    - gadgetsmenu.mysteryboxes.open.*
+    - litebans.ban
+    - litebans.unban
+    - litebans.tempban
+    - litebans.tempmute
+    - litebans.mute
+    - litebans.mutechat
+    - litebans.lockdown
+    - litebans.clearchat
+    - litebans.history
+    - litebans.unmute
+    - litebans.unwarn
+    - litebans.warn
+    - '*'
+    options:
+      prefix: '&4&lOWNER &c'
+      default: false
+users:
+  768093ac-3fc5-4931-9f05-167e98782b3b:
+    group:
+    - Dev
+    options:
+      name: xRays_Nide
+    permissions:
+    - '*'
+    - aegis.command
+    - gadgetsmenu.cloaks.firewings
+    - gadgetsmenu.pets.babyblackandwhiterabbit
+    - gadgetsmenu.emotes.cry
+    - gadgetsmenu.suits.icewalker.helmet
+    - gadgetsmenu.pets.creamyhorse
+    - gadgetsmenu.suits.plumber.helmet
+    - gadgetsmenu.suits.baker.helmet
+    - gadgetsmenu.gadgets.explodingsheep
+    - gadgetsmenu.emotes.dealwithit
+    - gadgetsmenu.animatedhats.colorblock
+    - gadgetsmenu.suits.ghostly.helmet
+    - gadgetsmenu.suits.disco.helmet
+    - gadgetsmenu.hats.woodelf
+    - gadgetsmenu.pets.babymushroomcow
+    - gadgetsmenu.cloaks.shaman
+    - gadgetsmenu.pets.witherskeleton
+    - gadgetsmenu.hats.pug
+    - gadgetsmenu.pets.babypigzombie
+    - gadgetsmenu.animatedhats.chromaslime
+    - gadgetsmenu.suits.spooderman.chestplate
+    - gadgetsmenu.suits.vampire.leggings
+    - gadgetsmenu.suits.bumblebee.helmet
+    - gadgetsmenu.pets.babypinksheep
+    - gadgetsmenu.gadgets.letitsnow
+    - gadgetsmenu.morphs.cow
+    - gadgetsmenu.suits.necromancer.leggings
+    - gadgetsmenu.gadgets.kawariminojutsu
+    - gadgetsmenu.hats.orc
+    - gadgetsmenu.suits.firefighter.leggings
+    - gadgetsmenu.morphs.chicken
+    - gadgetsmenu.pets.babysiamesecat
+    - gadgetsmenu.gadgets.scarecrow
+    - gadgetsmenu.gadgets.firetrail
+    - gadgetsmenu.pets.babyskeletonhorse
+    - gadgetsmenu.cloaks.mystical
+    - gadgetsmenu.pets.donkey
+    - gadgetsmenu.hats.turtle
+    - gadgetsmenu.suits.speedster.leggings
+    - gadgetsmenu.pets.babyblackrabbit
+    - gadgetsmenu.hats.miner
+    - gadgetsmenu.pets.babybrownsheep
+    - gadgetsmenu.morphs.skeleton
+    - gadgetsmenu.suits.plumber.chestplate
+    - gadgetsmenu.pets.babycow
+    - gadgetsmenu.gadgets.kookiefountain
+    - gadgetsmenu.pets.babyblackcat
+    - gadgetsmenu.gadgets.whenpigsfly
+    - gadgetsmenu.gadgets.rocket
+    - gadgetsmenu.cloaks.frosty
+    - gadgetsmenu.suits.mermaid.leggings
+    - gadgetsmenu.hats.emeraldstevehead
+    - gadgetsmenu.pets.babychestnuthorse
+    - gadgetsmenu.hats.scarecrow
+    - gadgetsmenu.pets.babybutchervillager
+    - gadgetsmenu.hats.ghost
+    - gadgetsmenu.morphs.irongolem
+    - gadgetsmenu.emotes.spicy
+    - gadgetsmenu.pets.magentasheep
+    - gadgetsmenu.suits.ninja.helmet
+    - gadgetsmenu.banners.reindeer
+    - gadgetsmenu.emotes.hearteyes
+    - gadgetsmenu.pets.babyblacksheep
+    - gadgetsmenu.suits.mermaid.helmet
+    - gadgetsmenu.pets.bluesheep
+    - gadgetsmenu.gadgets.flowergiver
+    - gadgetsmenu.pets.brownrabbit
+    - gadgetsmenu.pets.babywhitesheep
+    - gadgetsmenu.suits.frog.helmet
+    - gadgetsmenu.suits.warrior.helmet
+    - gadgetsmenu.pets.chestnuthorse
+    - gadgetsmenu.pets.babyzombie
+    - gadgetsmenu.hats.cheese
+    - gadgetsmenu.gadgets.sandcastle
+    - gadgetsmenu.suits.thor.helmet
+    - gadgetsmenu.pets.babyzombievillager
+    - gadgetsmenu.gadgets.radio
+    - gadgetsmenu.gadgets.mobgun
+    - gadgetsmenu.pets.babybrownhorse
+    - gadgetsmenu.pets.babyyellowsheep
+    - gadgetsmenu.suits.ninja.leggings
+    - gadgetsmenu.gadgets.pyromaniac
+    - gadgetsmenu.suits.speedster.chestplate
+    - gadgetsmenu.pets.babywolf
+    - gadgetsmenu.suits.disco.chestplate
+    - gadgetsmenu.hats.irongolem
+    - gadgetsmenu.emotes.rage
+    - gadgetsmenu.morphs.pig
+    - gadgetsmenu.emotes.rip
+    - gadgetsmenu.pets.grayhorse
+    - gadgetsmenu.suits.frog.leggings
+    - gadgetsmenu.cloaks.vampirewings
+    - gadgetsmenu.pets.greenlittlehelper
+    - gadgetsmenu.pets.babycyansheep
+    - gadgetsmenu.gadgets.creeperastronaut
+    - gadgetsmenu.gadgets.teleporter
+    - gadgetsmenu.pets.wildocelot
+    - gadgetsmenu.suits.ghostly.chestplate
+    - gadgetsmenu.hats.demonknight
+    - gadgetsmenu.banners.heart
+    - gadgetsmenu.hats.scrambledrubikscube
+    - gadgetsmenu.gadgets.partypopper
+    - gadgetsmenu.hats.minotaur
+    - gadgetsmenu.pets.blacksmithvillager
+    - gadgetsmenu.suits.icewalker.leggings
+    - gadgetsmenu.suits.necromancer.chestplate
+    - gadgetsmenu.suits.speedster.helmet
+    - gadgetsmenu.hats.sloth
+    - gadgetsmenu.pets.babypig
+    - gadgetsmenu.suits.bumblebee.leggings
+    - gadgetsmenu.particles.witchspell
+    - gadgetsmenu.suits.ghostly.leggings
+    - gadgetsmenu.hats.astronaut
+    - gadgetsmenu.pets.purplesheep
+    - gadgetsmenu.hats.pirate
+    - gadgetsmenu.suits.bumblebee.chestplate
+    - gadgetsmenu.particles.dripwater
+    - gadgetsmenu.hats.clownfish
+    - gadgetsmenu.pets.whitehorse
+    - gadgetsmenu.pets.blackrabbit
+    - gadgetsmenu.pets.golem
+    - gadgetsmenu.pets.babysaltandpepperrabbit
+    - gadgetsmenu.hats.panda
+    - gadgetsmenu.pets.zombievillager
+    - gadgetsmenu.suits.baker.chestplate
+    - gadgetsmenu.hats.candycane
+    - gadgetsmenu.morphs.creeper
+    - gadgetsmenu.hats.solvedrubikscube
+    - gadgetsmenu.emotes.sleepy
+    - gadgetsmenu.pets.babysilversheep
+    - gadgetsmenu.morphs.zombie
+    - gadgetsmenu.pets.whiterabbit
+    - gadgetsmenu.hats.monk
+    - gadgetsmenu.banners.pug
+    - gadgetsmenu.suits.warrior.chestplate
+    - gadgetsmenu.pets.babymagentasheep
+    - gadgetsmenu.hats.rainbowglitch
+    - gadgetsmenu.hats.whitewizard
+    - gadgetsmenu.pets.babyredsheep
+    - gadgetsmenu.pets.babylightbluesheep
+    - gadgetsmenu.particles.fireworkspark
+    - gadgetsmenu.particles.flame
+    - gadgetsmenu.pets.babygrayhorse
+    - gadgetsmenu.particles.magiccrit
+    - gadgetsmenu.pets.mule
+    - gadgetsmenu.suits.icewalker.chestplate
+    - gadgetsmenu.particles.happyvillager
+    - gadgetsmenu.cloaks.scanner
+    - gadgetsmenu.pets.babypriestvillager
+    - gadgetsmenu.gadgets.discoball
+    - gadgetsmenu.morphs.enderman
+    - gadgetsmenu.pets.pinksheep
+    - gadgetsmenu.gadgets.cryotube
+    - gadgetsmenu.hats.squid
+    - gadgetsmenu.banners.guitar
+    - gadgetsmenu.banners.holidaywreath
+    - gadgetsmenu.pets.babygoldrabbit
+    - gadgetsmenu.gadgets.divingboard
+    - gadgetsmenu.gadgets.piggybank
+    - gadgetsmenu.pets.farmervillager
+    - gadgetsmenu.pets.creeper
+    - gadgetsmenu.pets.spider
+    - gadgetsmenu.banners.snowbunny
+    - gadgetsmenu.pets.butchervillager
+    - gadgetsmenu.pets.redsheep
+    - gadgetsmenu.gadgets.bbqgrill
+    - gadgetsmenu.banners.dino
+    - gadgetsmenu.pets.babygraysheep
+    - gadgetsmenu.hats.mummy
+    - gadgetsmenu.pets.babywildocelot
+    - gadgetsmenu.gadgets.pocketbeach
+    - gadgetsmenu.suits.warrior.leggings
+    - gadgetsmenu.pets.babychicken
+    - gadgetsmenu.particles.heart
+    - gadgetsmenu.emotes.cheeky
+    - gadgetsmenu.suits.thor.chestplate
+    - gadgetsmenu.particles.crit
+    - gadgetsmenu.pets.blackandwhiterabbit
+    - gadgetsmenu.emotes.relax
+    - gadgetsmenu.pets.lightbluesheep
+    - gadgetsmenu.hats.fox
+    - gadgetsmenu.pets.mushroomcow
+    - gadgetsmenu.pets.babylibrarianvillager
+    - gadgetsmenu.gadgets.painttrail
+    - gadgetsmenu.animatedhats.siren
+    - gadgetsmenu.pets.librarianvillager
+    - gadgetsmenu.pets.babycreamyhorse
+    - gadgetsmenu.hats.mars
+    - gadgetsmenu.pets.saltandpepperrabbit
+    - gadgetsmenu.pets.babylimesheep
+    - gadgetsmenu.pets.babydarkbrownhorse
+    - gadgetsmenu.emotes.frown
+    - gadgetsmenu.pets.babyblacksmithvillager
+    - gadgetsmenu.morphs.snowman
+    - gadgetsmenu.hats.horse
+    - gadgetsmenu.particles.spell
+    - gadgetsmenu.pets.priestvillager
+    - gadgetsmenu.pets.limesheep
+    - gadgetsmenu.banners.redpool
+    - gadgetsmenu.particles.mobspell
+    - gadgetsmenu.suits.frog.chestplate
+    - gadgetsmenu.pets.babygreensheep
+    - gadgetsmenu.particles.instantspell
+    - gadgetsmenu.gadgets.parachute
+    - gadgetsmenu.gadgets.trampoline
+    - gadgetsmenu.gadgets.ghosts
+    - gadgetsmenu.pets.babypurplesheep
+    - gadgetsmenu.pets.babybluesheep
+    - gadgetsmenu.hats.reindeer
+    - gadgetsmenu.pets.babydonkey
+    - gadgetsmenu.emotes.suntan
+    - gadgetsmenu.gadgets.cowboy
+    - gadgetsmenu.pets.witch
+    - gadgetsmenu.banners.pengu
+    - gadgetsmenu.pets.snowman
+    - gadgetsmenu.hats.gorilla
+    - gadgetsmenu.pets.cyansheep
+    - gadgetsmenu.hats.snowman
+    - gadgetsmenu.hats.herobine
+    - gadgetsmenu.suits.vampire.chestplate
+    - gadgetsmenu.hats.otter
+    - gadgetsmenu.pets.goldrabbit
+    - gadgetsmenu.suits.ninja.chestplate
+    - gadgetsmenu.pets.undeadhorse
+    - gadgetsmenu.hats.ghast
+    - gadgetsmenu.gadgets.batlauncher
+    - gadgetsmenu.pets.skeleton
+    - gadgetsmenu.suits.mermaid.chestplate
+    - gadgetsmenu.emotes.dizzy
+    - gadgetsmenu.pets.babybrownrabbit
+    - gadgetsmenu.hats.owl
+    - gadgetsmenu.pets.babyblackhorse
+    - gadgetsmenu.particles.note
+    - gadgetsmenu.particles.angryvillager
+    - gadgetsmenu.hats.diamondstevehead
+    - gadgetsmenu.morphs.sheep
+    - gadgetsmenu.suits.spooderman.helmet
+    - gadgetsmenu.pets.skeletonhorse
+    - gadgetsmenu.gadgets.diamondshower
+    - gadgetsmenu.pets.redlittlehelper
+    - gadgetsmenu.pets.babymule
+    - gadgetsmenu.pets.pigzombie
+    - gadgetsmenu.pets.darkbrownhorse
+    - gadgetsmenu.suits.thor.leggings
+    - gadgetsmenu.pets.cavespider
+    - gadgetsmenu.particles.enchantment
+    - gadgetsmenu.gadgets.catapult
+    - gadgetsmenu.suits.plumber.leggings
+    - gadgetsmenu.pets.greensheep
+    - gadgetsmenu.banners.santa
+    - gadgetsmenu.gadgets.icecreamstand
+    - gadgetsmenu.suits.firefighter.chestplate
+    - gadgetsmenu.gadgets.djbooth
+    - gadgetsmenu.pets.babyfarmervillager
+    - gadgetsmenu.suits.spooderman.leggings
+    - gadgetsmenu.pets.babyredcat
+    - gadgetsmenu.pets.babyorangesheep
+    - gadgetsmenu.pets.babywhitehorse
+    - gadgetsmenu.banners.holidaytree
+    - gadgetsmenu.particles.driplava
+    - gadgetsmenu.pets.orangesheep
+    - gadgetsmenu.pets.blacksheep
+    - gadgetsmenu.pets.babywhiterabbit
+    - gadgetsmenu.hats.shulker
+    - gadgetsmenu.hats.enderdragon
+    - gadgetsmenu.suits.disco.leggings
+    - gadgetsmenu.hats.pigzombie
+    - gadgetsmenu.gadgets.goldfountain
+    - gadgetsmenu.morphs.spider
+    - gadgetsmenu.pets.blackhorse
+  d886e2ac-ca2a-4fdd-af3d-3d92c34727f3:
+    group:
+    - Owner
+    options:
+      name: SoyTemple
+    permissions:
+    - gadgetsmenu.suits.spooderman.boots
+    - gadgetsmenu.suits.spooderman.leggings
+    - gadgetsmenu.suits.spooderman.chestplate
+    - gadgetsmenu.suits.spooderman.helmet
+  dbbf724a-7bd1-3eb9-a73d-1929c5d2010d:
+    group: []
+    options:
+      name: s3rx1
+  1e9237ac-ef14-47e6-9d5a-355c10a47712:
+    group:
+    - Helper
+    options:
+      name: CRASHDAVID274
+  itzzeldris__:
+    group:
+    - Helper
+  516b8111-5fda-3a7d-8fb0-89576abc068c:
+    group:
+    - Helper
+    options:
+      name: cocoplay2020
+  4923198f-5086-326f-8392-aab8b3b5b75b:
+    group:
+    - Helper
+    options:
+      name: ItzZeldris__
+  eb22fba5-3b92-3794-b03d-c60d79574b7f:
+    group:
+    - Helper
+    options:
+      name: YoSoyCriis
+  3fda8f00-074b-4296-a7df-759c320a99e1:
+    group:
+    - Helper
+    options:
+      name: Monstarfl
+  pabloskyy:
+    group:
+    - Admin
+  df6ad486-8bd7-39e0-8b38-4656e7ef02e5:
+    group:
+    - Dev
+    options:
+      name: MrPokemon_YT
+  5f6f48cd-a16a-4469-992b-6659fdf346b7:
+    group:
+    - VIP+
+    options:
+      name: DemoleitorPro
+  ba615335-2afe-42ae-9d76-9ece935e91aa:
+    group:
+    - BUILDER
+    options:
+      name: alcaPlay
+  589377a8-17d5-4601-bf12-14c097c427e1:
+    group:
+    - Owner
+    options:
+      name: ImCRISGAMERYT
+    permissions:
+    - '*'
+  d4b99856-ae5e-38c6-9bd8-69bc344e04f8:
+    group:
+    - Manager
+    options:
+      name: LittleBird
+  a4f64f30-e93e-4a0f-ac12-b571fa6e2580:
+    group:
+    - Partner
+    options:
+      name: MrPandush
+    permissions:
+    - '*'
+  c37cfe8d-e9cd-31b2-b50d-ec7ef90e3721:
+    group:
+    - Helper
+    options:
+      name: xXThemasterXx_
+  b9f672b4-5866-4110-8cdb-547cf508b143:
+    group:
+    - Dev
+    options:
+      name: ItzLEOKING
+  7722cf1c-db7a-4cfa-8eb2-ad2d809d746e:
+    group:
+    - Admin
+    options:
+      name: ItsMarioYT
+  b228692f-c46d-4017-996f-51e3d298b60e:
+    group:
+    - Helper
+    options:
+      name: Gonza__002
+  34406e0d-b508-4915-b54d-ea4c1aa38d38:
+    group:
+    - MiniYT
+    options:
+      name: ImNaudi_YT
+  e93bae32-1765-47c3-a3a3-6ca9643356d0:
+    group:
+    - YT
+    options:
+      name: Aekuu
+  055f6d39-7461-4e84-8a12-2e41bc9a81ef:
+    group:
+    - Admin
+    options:
+      name: _pabloskyy_
+  28ca00a6-85b3-4919-94d3-2c86a8ac5ebc:
+    group:
+    - Mod
+    options:
+      name: WindyNotFound
+  4fabcf93-57f6-4e5c-aefa-15bd75606d6f:
+    group:
+    - Helper
+    options:
+      name: fire_stick01
+  3ac1dd42-5631-3d98-bd48-cb1f88b65e55:
+    group:
+    - VIP+
+    options:
+      name: xxkakunxx
+  5e3c267a-0915-3451-bd6f-1e3fbd48061d:
+    group:
+    - Famoso
+    options:
+      name: PosDuck
+  7730bb99-85cd-4682-af6a-1460bcb58309:
+    group:
+    - Helper
+    options:
+      name: unicheto
+schema-version: 1

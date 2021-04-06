@@ -1,0 +1,33 @@
+Animated-Hats:
+  Siren:
+    Name: '&9Cabeza animada de Sirena'
+    Mystery Dust: 20
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore: ''
+  Sammy The Cookie:
+    Name: '&9Cabeza animada de Sammy la Galleta'
+    Mystery Dust: 25
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore: ''
+  Chroma Slime:
+    Name: '&Cabeza animada de Lima de Croma'
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore: ''
+  Color Block:
+    Name: '&9Cabeza animada de color BLOQUEADO'
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore: ''

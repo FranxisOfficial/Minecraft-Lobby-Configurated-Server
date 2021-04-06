@@ -1,0 +1,101 @@
+#Permisos#
+
+#SDirect.Directo
+#SDirect.Video
+#SDirect.DirectoBypass
+#SDirect.VideoBypass
+#SDirect.Reload
+#SDirect.YTChat
+
+#Configuración
+
+Global:
+  DenyConsole: "&cSolo pueden usar este comando los Youtubers!"
+  ValidUrls:
+    - 'twitch.tv'
+    - 'youtube.com'
+    - 'youtu.be'
+
+SDirect:
+  Message:
+    - "&c&lDIRECTO &8» &cPlugin &fcreado por &axRays_Nide"
+
+Reload:
+  DenyMessage: "&cNo tienes permisos, solo el staff puede usar este comando."
+  DenySound: "ANVIL_USE"
+  DenyTitles:
+    Enabled:
+      Active: true
+      Title: "&fNo tienes permisos"
+      Subtitle: "&cSolo los Youtubers puede usar este comando"
+#---------------------------------------------------------------------------------
+  GoodMessage: "&fEl plugin fue recargado correctamente."
+  GoodSound: "LEVEL_UP"
+  GoodTitles:
+    Enabled:
+      Active: false
+      Title: "&fEl plugin fue recargado"
+      Subtitle: "&aCorrectamente"
+
+Directo:
+  isCentered: true
+  InvalidUrl: "&c¡Debes ingresar un url válido!"
+  DenyMessage: "&cNo tienes permisos, solo los youtubers pueden usar este comando."
+  DenySound: "ANVIL_USE"
+  DenyTitles:
+    Enabled:
+      Active: true
+      Title: "&fNo tienes permisos"
+      Subtitle: "&cSolo los youtubers puede usar este comando"
+#---------------------------------------------------------------------------------
+  GoodMessage: "&aEl directo fue enviado correctamente!"
+  GoodSound: "ORB_PICKUP"
+  GoodTitles:
+    Enabled:
+      Active: false
+      Title: "&fEl directo fue enviado"
+      Subtitle: "&aCorrectamente"
+#---------------------------------------------------------------------------------
+  UsageCommand: "&fUsa &e/directo &6<link>"
+  MessageSuccessful:
+    - '&8&m---------------------------------------'
+    - '&3%player% &festa en &cdirecto'
+    - '&7Link: &9&n%link%'
+    - '&8&m---------------------------------------'
+  CooldownMessage: "&fPuedes usar el comando cada&e %s &fsegundos."
+  Cooldown: 300
+#El Cooldown es en segundos
+
+Video:
+  isCentered: true
+  InvalidUrl: "&c¡Debes ingresar un url válido!"
+  DenyMessage: "&cNo tienes permisos, solo los youtubers pueden usar este comando."
+  DenySound: "ANVIL_USE"
+  DenyTitles:
+    Enabled:
+      Active: true
+      Title: "&fNo tienes permisos"
+      Subtitle: "&cSolo los youtubers puede usar este comando"
+#---------------------------------------------------------------------------------
+  GoodMessage: "&fEl video fue enviado correctamente."
+  GoodSound: "ORB_PICKUP"
+  GoodTitles:
+    Enabled:
+      Active: false
+      Title: "&fEl video fue enviado"
+      Subtitle: "&aCorrectamente"
+#---------------------------------------------------------------------------------
+  UsageCommand: "&fUsa &e/video &6<link>"
+  MessageSuccessful:
+    - '&8&m---------------------------------------'
+    - '&3%player% &fsubió un nuevo &cvideo'
+    - '&7Link: &9&n%link%'
+    - '&8&m---------------------------------------'
+  CooldownMessage: "&fPuedes usar el comando cada&e %s &fsegundos."
+  Cooldown: 300
+#El Cooldown es en segundos
+
+YTChat:
+  Prefix: "&c&lCHAT &4&lYT &8» "
+  Usage: "&fUsa el comando &c/ytc [mensaje]"
+  NoPermission: "&cNo tienes permisos, solo los youtubers pueden usar este comando."

@@ -1,0 +1,21 @@
+#+-----------------------------------------------------------------------------------------+# 
+#                                                                                           #
+# __________               .____         ___.  ___.          ___________    .___.__  __     #
+# \______   \_______  ____ |    |    ____\_ |__\_ |__ ___.__.\_   _____/  __| _/|__|/  |_   #
+#  |     ___/\_  __ \/  _ \|    |   /  _ \| __ \| __ <   |  | |    __)_  / __ | |  \   __\  #
+#  |    |     |  | \(  <_> )    |__(  <_> ) \_\ \ \_\ \___  | |        \/ /_/ | |  ||  |    #
+#  |____|     |__|   \____/|_______ \____/|___  /___  / ____|/_______  /\____ | |__||__|    #
+#                                  \/         \/    \/\/             \/      \/             #
+#                                                                                           #
+#                                 @Chat.yml Edit                                            #
+#+-----------------------------------------------------------------------------------------+#
+
+# Chat Format, Edit the Players Chat
+CHAT_FORMAT: # For future Updates Chat by Rank
+  DEFAULT: "%vault_prefix%<player> &8<1> &7<message>"
+
+CHAT_HOVER: "%vault_prefix%<player>||&fNivel: &a0|&fMonedas: &60||&aClick para abrir su perfil"
+
+CHAT_MSG_PLAYER: "&8[&cMSG&8] &bYou &8>> &b<player> &8: &a<message>"
+CHAT_MSG_PLAYER_RECIVE: "&8[&cMSG&8] &b<player> &8>> &bYou&8: &a<message>"
+CHAT_MSG_SPY_PLAYER: "&8[&cSPY&8] &b<player> &8>> &b<player2> &8: &a<message>"

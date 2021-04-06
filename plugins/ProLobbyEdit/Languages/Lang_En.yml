@@ -1,0 +1,193 @@
+#+-----------------------------------------------------------------------------------------+# 
+#                                                                                           #
+# __________               .____         ___.  ___.          ___________    .___.__  __     #
+# \______   \_______  ____ |    |    ____\_ |__\_ |__ ___.__.\_   _____/  __| _/|__|/  |_   #
+#  |     ___/\_  __ \/  _ \|    |   /  _ \| __ \| __ <   |  | |    __)_  / __ | |  \   __\  #
+#  |    |     |  | \(  <_> )    |__(  <_> ) \_\ \ \_\ \___  | |        \/ /_/ | |  ||  |    #
+#  |____|     |__|   \____/|_______ \____/|___  /___  / ____|/_______  /\____ | |__||__|    #
+#                                  \/         \/    \/\/             \/      \/             #
+#                                                                                           #
+#                                 @Lang.yml Edit                                            #
+#+-----------------------------------------------------------------------------------------+#
+
+# TabEdit 
+TABLIST:
+  HEADER: |-
+    &e
+    &6↺ &b&lShockMC &f&lNetwork &6↻ 
+    &e&lNuevo: &fActualizacion v1.5
+    &e
+  FOOTER: |-
+    &e
+    &fTwitter: &a@shockmcnetwork
+    &fTienda: &awww.shockmc/shop.com
+    &fDiscord: &adiscord.me/shockmcnetwork
+    &e
+
+# Server List, Edit the Server Info
+SERVER_LIST:
+  M1: "       &6↺ &b&lShockMC &f&lNetwork &6↻ &a[1.7 - 1.15]  " 
+  M2: "&e       Noticia: &f¡Nuevo sistema inplementado!  "
+
+# ItemsJoin Messages
+INV_FULL: "&3&l[SMCore] &cYour inventory is full."
+ALREADY_ITEM: "&3&l[SMCore] &cYour already own this item."
+WAIT_CLICKING_ITEM: "&3&l[SMCore] &cPlease wait before clicking again."
+
+# Others
+LOBBY_SET: "&3&l[SMCore] &aThe lobby has been set correctly"
+LOBBY_ERROR: "&3&l[SMCore] &cAn error has occurred, please set the waiting lobby using &6/LobbyEdit setlobby"
+SPAWN: "&3&l[SMCore] &8you have been teleported"
+NO_PERMISSION: "&3&l[SMCore] &8You dont have &cpermission"
+JOIN_SERVER: "&8(&e+&8) &6<player> &8join the server"
+QUIT_SERVER: "&8(&c-&8) &e<player> &8left the server"
+DENY_MESSAGE: "&3&l[SMCore] &8You are not permitted to use this command."
+COMMAND_DISABLE: "&3&l[SMCore] &8This command is disabled"
+AUTO_FLY_MSG: "&3&l[SMCore] &8AutoFly is &aenable!"
+UNKNOWN_COMMAND: "&3&l[SMCore] &eUnknown &ccommand use &e/LobbyEdit"
+
+# KICK_MESSAGE_PROTECT_IP: "&3&l[SMCore] &cYou are Not permitted to use this IP"
+KICK_MESSAGE_SPAMMING: "&c&lAdvertencia | &fHas sido kickeado del Servidor | &fPor spamear en el Chat en ShockMC"
+
+# Chat Control
+CHAT_ENABLE: "&3&l[SMCore] &aChat Enable"
+CHAT_DISABLE: "&3&l[SMCore] &aChat Disable"
+NOT_SEND_LINKS: "&3&l[SMCore] &cIt is not allowed to send links"
+NOT_SEND_WORKS: "&3&l[SMCore] &cPlease do not use that bad Word on Our Server"
+BAT_WORKS_USE: "&3&l[SMCore] &cPlayer &e<name> &cIs Breaking Server Rules &7>> &9<work>"
+SEND_WORKS_ADDS: "&3&l[SMCore] &aYou have added a Word to the Black List &7>> &a<work>"
+ANTI_SPAM: 
+- "&8&m=---------------------------="
+- " "
+- "&3&l[SMCore] &cWait &a<time>&c seconds(s)!"
+- " "
+- "&8&m=---------------------------="
+
+#Void 
+SET_VOID_SPAWN: "&3&l[SMCore] &8The spawn of VoidTP has been successfully placed!"
+SET_VOID_SPAWN_ERRONEO: "&3&l[SMCore] &8The spawn of erroneo!"
+SET_VOID_WORLD: "&3&l[SMCore] &8The World of VoidTP has been successfully placed!"
+TELEPORT_VOID_WORLD: "&3&l[SMCore] &8Teleported successfully!"
+
+# Staffs Messages
+CHAT_STAFF: "&8[&c&lSTAFF&7-&c&lCHAT&8] &f<player> &7>> &r<message>"
+STAFF_JOIN: "&9Staff &a&l<staff> &7Join &a&l+"
+STAFF_LEAVE: "&9Staff &c&l<staff> &7Leave &4&l-"
+STAFF_CHAT_DISABLE: "&cSorry, but this function is disabled"
+VANISH_MESSAGE_STAFF_DESACTIVE: "&8[&c&lSTAFF&8] &a<name> &7It has been deactivated &e&lVanish"
+VANISH_MESSAGE_STAFF_ACTIVE: "&8[&c&lSTAFF&8] &a<name> &7Has been activated &e&lVanish"
+MENU_ONLINE_STAFFS:
+  ROW: 3
+  NAME: "&eEstado Mayor - Conectados"
+  NAME_HEAD: "&e&l<name>"
+  LORE_HEAD:
+  - " "
+  - "&b&lEquipo de ShockMC:"
+  - " "
+  - " &fRango: %vault_prefix%"
+  - " &fActividad: &aConectado"
+  - " &fEstado: &eModeracion"
+  - " "
+  - "&aClick para ver su perfil"
+
+# Message when Deleting the Chat
+CHAT_CLEAR:
+- ""
+
+# Server Settings
+WHITELIST: "&3&l[SMCore] &8Whitelist activated"
+SERVER_FULL: "&3&l[SMCore] &8Server Full please Try Later"
+
+# Titles && SubTitles
+JOIN_TITLE: "&eWelcome <player>"
+JOIN_SUBTITLE: "&8-> &a<server_name>"
+
+FLY_ENABLE_TITLE: "&a&lModo de Vuelo"
+FLY_ENABLE_SUBTITLE: "&e¡Activado!"
+ 
+FLY_DISABLE_TITLE: ""
+FLY_DISABLE_SUBTITLE: ""
+
+GAMEMODE_CREATIVE_TITLE: "&e&lModo de Juego"
+GAMEMODE_CREATIVE_SUBTITLE: "&9&lCreativo"
+
+GAMEMODE_SURVIVAL_TITLE: "&e&lModo de Juego"
+GAMEMODE_SURVIVAL_SUBTITLE: "&a&lSurvival"
+
+GAMEMODE_SPECTATOR_TITLE: "&e&lModo de Juego"
+GAMEMODE_SPECTATOR_SUBTITLE: "&b&lEspectador"
+
+GAMEMODE_ADVENTURE_TITLE: "&e&lModo de Juego"
+GAMEMODE_ADVENTURE_SUBTITLE: "&6&lAventura"
+
+# Commands
+VANISH_ENABLE: "&3&l[SMCore] &8Vanish &a&lEnable!"
+VANISH_DISABLE: "&3&l[SMCore] &8Vanish &c&lDisable!"
+VANISH_NOT_PERMISSION: "&cNecesitas tener rango &2[Mod] &cpara poder activar el modo invisible."
+
+GAMEMODE_SURVIVAL: '&3&l[SMCore] &aTu modo de juego se ha cambiado a modo &fSurvival'
+GAMEMODE_ADVENTURE: '&3&l[SMCore] &aTu modo de juego se ha cambiado a modo &fAventura'
+GAMEMODE_SPECTATOR: '&3&l[SMCore] &aTu modo de juego se ha cambiado a modo &fEspectador'
+GAMEMODE_CREATIVE: '&3&l[SMCore] &aTu modo de juego se ha cambiado a modo &fCreativo'
+GAMEMODE_NO_PERM: '&cEste comando esta desactivado del Servidor.'
+GAMEMODE_UTILIZE: "&3&l[SMCore] &fEjecuta el comando: &b/gm 0,1,2,3"
+
+FLY_ENABLE: "&3&l[SMFly] &fTu modo de vuelo ha sido: &aActivado."
+FLY_DISABLE: "&3&l[SMFly] &fTu modo de vuelo ha sido: &cDesactivado."
+FLY_NO_PERMISSION: "&cNecesitas rango &a[Shocks] &cpara obtener el modo de vuelo."
+
+BROADCAST_PREFIX: ""
+BROADCAST_ERROR: ""
+BROADCAST_NOT_PERMISSION: ""
+
+# MOTD JOIN
+MOTD_JOIN_SERVER:
+- "&f&m                                               "
+- ""
+- "&e- &7Welcome The Server"
+- "&e- &a<player> &7edit the config and &aLang.yml"
+- ""
+- "&f&m                                               "
+
+# * You Can Add In This Section Messages When Entering 
+# * For Fully Editable Players Follow the Instructions.
+# * In the TEXTHOVER you can use These types of messages For example:
+#
+# * CommandExample:
+# *   Text: "&aEXAMPLE"
+# *   Hover: "Click for Command"
+# *   Action: COMMAND
+# *   Command: "Tell: &e&lProLobbyEdit"
+# * This type of message is also as an example:
+#
+# * TwitterCombito:
+# *   Text: "&aEXAMPLE"
+# *   Hover: "Click for Command"
+# *   Url: "@CombitoRushYT"
+# *   Action: URL
+
+
+TEXTHOVER:
+- "&6         ↺ &b&lShockMC &f&lNetwork &6↻     "
+- "&a   Enlaces de interés &7(Click en el Chat)   "
+EDIT:
+  Twitter: 
+    Text: "   &b&lTwitter "
+    Hover: "&aClick para acceder a nuestro &b&lTwitter"
+    Action: URL
+    Url: "https://www.spigotmc.org/"
+  Web:
+    Text: "   &9&lDiscord "
+    Hover: "&aClick para entrar a nuestro servidor de &9&lDiscord"
+    Action: URL
+    Url: "https://www.spigotmc.org/"
+  Shop: 
+    Text: "  &3&lForo "
+    Hover: "&aClick para acceder al &3&lForo"
+    Action: URL
+    Url: "https://www.spigotmc.org/"
+  Discord: 
+    Text: "   &e&lTienda "
+    Hover: "&aClick para abrir la &e&lTienda"
+    Action: URL
+    Url: "https://www.spigotmc.org/"

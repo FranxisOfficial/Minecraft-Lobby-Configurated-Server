@@ -1,0 +1,4 @@
+#Estes opciones son de solo un mundo de un servidor con multiworld.
+#Wed Jul 01 14:54:56 COT 2020
+WorldName=SKYWARS
+LastSaved=1593633295656

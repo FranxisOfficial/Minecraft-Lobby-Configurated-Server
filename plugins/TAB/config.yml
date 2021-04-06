@@ -1,0 +1,288 @@
+# Detailed explanation of all options available at https://github.com/NEZNAMY/TAB/wiki/config.yml
+
+#changing nametags, affecting sorting, collision rule
+change-nametag-prefix-suffix: true
+
+#prefix/suffix in tablist
+change-tablist-prefix-suffix: true
+
+#header/footer
+enable-header-footer: true
+
+header:
+- ''
+- '&8» &d&lMEGACRAFT &3&lNETWORK&r &8«'
+- '&7&o play.megacraft.link'
+- ''
+  # Modify the footer of the tablist
+footer:
+- ''
+- '&fEstas actualmente en la modalidad: &d&lLOBBY'
+- ''
+- '&8» &fTienda: &amegacraftnet.tebex.io'
+- '&8» &fDiscord: &9discord.io/megacraftnw'
+- ''
+
+#supports any numeric placeholder, set to "" to disable the feature
+yellow-number-in-tablist: "%ping%"
+
+#literally what it says
+group-sorting-priority-list:
+  - OWNER
+  - MANAGER
+  - DEV
+  - ADMIN
+  - MOD
+  - HELPER
+  - BUILDER
+  - PARTNER
+  - FAMOSO
+  - YT
+  - MiniYT
+  - Streamer
+  - MEGA+
+  - MEGA
+  - VIP+
+  - VIP
+  - Usuario
+
+Groups:
+  OWNER:
+    tabprefix: "&4&lOWNER &c"
+    tagprefix: "&4&lOWNER &c"
+  MANAGER:
+    tabprefix: "&b&lMANAGER &9"
+    tagprefix: "&b&lMANAGER &9"
+  DEV:
+    tabprefix: "&a&lDEV &2"
+    tagprefix: "&a&lDEV &2"
+  ADMIN:
+    tabprefix: "&c&lADMIN &b"
+    tagprefix: "&c&lADMIN &b"
+  MOD:
+    tabprefix: "&5&lMOD &6"
+    tagprefix: "&5&lMOD &6"
+  HELPER:
+    tabprefix: "&e&lHELPER &3"
+    tagprefix: "&e&lHELPER &3"
+  BUILDER:
+    tabprefix: "&3&lBUILDER &c"
+    tagprefix: "&3&lBUILDER &c"
+  PARTNER:
+    tabprefix: "&9&lPARTNER &c"
+    tagprefix: "&9&lPARTNER &c"
+  FAMOSO:
+    tabprefix: "&d&lFAMOSO &a"
+    tagprefix: "&d&lFAMOSO &a"
+  YT:
+    tabprefix: "&4&lYOU&f&lTUBER &6"
+    tagprefix: "&4&lY&f&lT &6"
+  MiniYT:
+    tabprefix: "&c&lMINI&f&lYT &e"
+    tagprefix: "&c&lM&f&lYT &e"
+  STREAMER:
+    tabprefix: "&d&lSTREAMER &9"
+    tagprefix: "&d&lSTREAMER &9"
+  MEGA+:
+    tabprefix: "&9&lMEGA+ &f"
+    tagprefix: "&9&lMEGA+ &f"
+  MEGA:
+    tabprefix: "&5&lMEGA &f"
+    tagprefix: "&5&lMEGA &f"
+  VIP+:
+    tabprefix: "&2&lVIP+ &f"
+    tagprefix: "&2&lVIP+ &f"
+  VIP:
+    tabprefix: "&e&lVIP &F"
+    tagprefix: "&e&lVIP &f"
+  Usuario:
+    tabprefix: "&3"
+    tagprefix: "&3"
+      
+  #default settings for all groups, all groups will take properties from this section unless player's primary group overrides a specific setting
+  _OTHER_:
+    tabprefix: "&3"
+    tagprefix: "&3"
+    tabsuffix: ""
+    tagsuffix: ""
+    customtabname: "%essentialsnick%"
+    customtagname: "%essentialsnick%"
+
+Users:
+  _NEZNAMY_:
+    tabprefix: "&6&lTAB Author &a"
+    tagprefix: "&6&lTAB &r&a"
+    abovename: "&bOh look, 3 lines of text !"
+    belowname: "&eThere's only one plugin out there supporting it"
+
+#additional very limited line of text below nametag
+#don't forget this enables on all player entities, which includes NPCs
+#tags so you can find this section using the mighty ctrl + f feature: [NPC, Citizens, below_name, health]
+classic-vanilla-belowname:
+
+  #enabling the feature
+  enabled: false
+  
+  #number or numeric placeholder, supports per-player placeholders
+  number: "%health%"
+  
+  #text after number, must be same on all players
+  text: "Health"
+
+#controlling the collision rule
+enable-collision: true
+
+#using the opposite of the setting above for worlds
+revert-collision-rule-in-worlds:
+  - revertedworld
+  
+#preventing players with spectator gamemode from being moved to the bottom of tablist with transparent name
+do-not-move-spectators: false
+
+#allows players with tab.spectatorbypass permission to see spectators moved despite the option above enabled
+allow-spectator-bypass-permission: false
+
+#using armor stands for nametags, bypassing all limits
+#THEY ARE CLIENT SIDED AND DO NOT EXIST ON SERVER SO STOP SAYING YOUR SERVER IS LAGGING FROM THIS
+unlimited-nametag-prefix-suffix-mode:
+
+  #enabling the feature
+  enabled: false
+  
+  #enabling will result in NPCs ignoring nametag prefix/suffix/visibility to prevent NPCs with names of online players from being invisible
+  modify-npc-names: false
+  
+  #using a feature introduced in 1.8.1 to make hitbox zero so you can't cry it affects pvp despite hit redirection
+  #1.8.0 clients will see wild things
+  #automatically enabled for 1.9+
+  use-marker-tag-for-1-8-x-clients: false
+  
+  #disabling the feature for players riding boats to prevent massive desync
+  disable-on-boats: true
+
+per-world-settings:
+  world1:
+    header:
+      - "an example of world with custom"
+    footer:
+      - "header/footer and prefix/suffix"
+    Groups:
+      Owner:
+        tabprefix: "&0&l[&a&lOwner&0&l] &a"
+        tagprefix: "&2&lOwner &a"
+        
+  #separating multiple worlds with "-"
+  world2-world3:
+    header:
+      - "This is a shared header for"
+      - "world2 and world3"
+
+placeholders:
+  #output of %afk%
+  afk-yes: " &6&lAUSENTE"
+  afk-no: ""
+  
+  #%date%
+  date-format: "dd.MM.yyyy"
+  
+  #%time%
+  time-format: "[HH:mm:ss / h:mm a]"
+  
+  #in hours, in case of wrong timezone
+  time-offset: 0
+  
+  #don't forget color codes
+  remove-strings:
+    - "[]"
+    - "< >"
+    
+#aliases for %rank%, this is not the place where group prefix is defined!
+rank-aliases:
+  OWNER: "&4&lOWNER &c"
+  MANAGER: "&b&lMANAGER &9"
+  DEV: "&a&lDEV &2"
+  ADMIN: "&c&lADMIN &b"
+  MOD: "&5&lMOD &6"
+  HELPER: "&E&lHELPER &3"
+  BUILDER: "&3&lBUILDER &6"
+  PARTNER: "&9&lPARTNER &c"
+  FAMOSO: "&d&lFAMOSO &a"
+  YT: "&4&lYOUTUBER &6"
+  MiniYT: "&c&lMINI&f&lYT &e"
+  Streamer: "&d&lSTREAMER &9"
+  MEGA+: "&9&LMEGA+ &f"
+  MEGA: "&5&lMEGA &f"
+  VIP+: "&2&lVIP+ &f"
+  VIP: "&e&lVIP &f"
+  Usuario: "&3"
+  _OTHER_: "&3"
+  
+disable-features-in-worlds:
+  header-footer:
+    - disabledworld
+  tablist-names:
+    - disabledworld
+  nametag:
+    - disabledworld
+  yellow-number:
+    - disabledworld
+  bossbar:
+    - disabledworld
+  belowname:
+    - disabledworld
+
+placeholderapi-refresh-intervals:
+  default-refresh-interval: 100
+  server:
+    "%server_uptime%": 1000
+    "%server_tps_1_colored%": 1000
+  player:
+    "%player_health%": 200
+    "%player_ping%": 1000
+    "%vault_prefix%": 1000
+  relational:
+    "%rel_factionsuuid_relation_color%": 500
+    
+#different playerlist in different worlds
+per-world-playerlist:
+
+  #to enable the feature
+  enabled: false
+  
+  #allows players with tab.bypass permission to see everyone in tablist despite this option enabled
+  allow-bypass-permission: false
+  
+  #players in these worlds will see everyone despite the feature enabled
+  ignore-effect-in-worlds:
+    - ignoredworld
+    - build
+    
+  #groups of worlds to share playerlist
+  shared-playerlist-world-groups:
+    #group name, can be anything
+    lobby:
+      - lobby1
+      - lobby2
+    minigames:
+      - paintball
+      - bedwars
+
+#permission node is tab.sort.<permission group from sorting list>
+sort-players-by-permissions: false
+
+#making tamed animals no longer copy nametag properties from their owner (prefix/suffix/visibility)
+#do not enable this if you're on paper, you'll feed the trolls even more
+fix-pet-names: false
+
+#taking primary group from permission plugin
+use-primary-group: true
+
+#if the option above is false, all groups are taken from permission plugin and the one higher in this list is used as primary
+primary-group-finding-list:
+  - Owner
+  - Admin
+  - Helper
+  - default
+  
+#if none of the above fits your needs, you can enable this to give groups using tab.group.<group name from the list above> permission
+assign-groups-by-permissions: false

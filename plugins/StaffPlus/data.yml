@@ -1,0 +1,90 @@
+# All saved data for Staff+. Only modify this file if you know what you're doing!
+
+bd37c83b-59db-3b40-a1a7-e9edfa406bcb:
+  name: Elgranpro
+  password: ''
+  glass-color: 0
+  reports: []
+  warnings: []
+  notes: []
+  alert-options:
+  - NAME_CHANGE;true
+  - MENTION;true
+  - XRAY;true
+f262b8bc-de18-3a03-907d-dfa920bfec1b:
+  name: SoyNide
+  password: ''
+  glass-color: 0
+  reports: []
+  warnings: []
+  notes: []
+  alert-options:
+  - NAME_CHANGE;true
+  - MENTION;true
+  - XRAY;true
+3bd0903a-d062-3066-8c20-e40069023f2f:
+  name: xRays_Nide
+  password: ''
+  glass-color: 0
+  reports: []
+  warnings: []
+  notes: []
+  alert-options:
+  - NAME_CHANGE;true
+  - MENTION;true
+  - XRAY;true
+2c7803e5-fff3-3f81-9f54-3ff6944fc9ca:
+  name: MrGamesYT_
+  password: ''
+  glass-color: 0
+  reports: []
+  warnings: []
+  notes: []
+  alert-options:
+  - NAME_CHANGE;true
+  - MENTION;true
+  - XRAY;true
+d3e693b4-b7db-330c-9861-e5d4f6c41f26:
+  name: G3brihYT_
+  password: ''
+  glass-color: 0
+  reports: []
+  warnings: []
+  notes: []
+  alert-options:
+  - NAME_CHANGE;true
+  - MENTION;true
+  - XRAY;true
+c6e5b4da-42e4-3fc8-a7bc-d8ef101c7f68:
+  name: Maria_fpn
+  password: ''
+  glass-color: 0
+  reports: []
+  warnings: []
+  notes: []
+  alert-options:
+  - NAME_CHANGE;true
+  - MENTION;true
+  - XRAY;true
+39a28b22-68a9-3b37-8c07-2a81e58f2f96:
+  name: SrGatoGamerMC
+  password: ''
+  glass-color: 0
+  reports: []
+  warnings: []
+  notes: []
+  alert-options:
+  - NAME_CHANGE;true
+  - MENTION;true
+  - XRAY;true
+e0f7e9ff-1a21-3a58-b6b4-96598447e356:
+  name: Zyxoo_
+  password: ''
+  glass-color: 0
+  reports: []
+  warnings: []
+  notes: []
+  alert-options:
+  - NAME_CHANGE;true
+  - MENTION;true
+  - XRAY;true

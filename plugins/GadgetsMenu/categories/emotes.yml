@@ -1,0 +1,257 @@
+Emotes:
+  Smile:
+    Name: '&aEmoticono sonriendo'
+    Cooldown: 10
+    Mystery Dust: 10
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&aEstoy sonriendo!'
+    Lore:
+    - '&7Estás ahora mismo sonriendo?'
+    - '&7Hazlo mostrar al mundo con este'
+    - '&7valioso emoticono como en &a&lWHATSAPP&r&7!'
+  Cool:
+    Name: '&aEmoticono fresco'
+    Cooldown: 10
+    Mystery Dust: 12
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&aEstoy bien fresco!'
+    Lore:
+    - '&7Estás bien fresco? Pues'
+    - '&7ponte esta cabeza exclusiva.'
+    - '&7Estarás mas fresco y fachero aún!'
+  Wink:
+    Name: '&aEmoticono guiñando'
+    Cooldown: 10
+    Mystery Dust: 12
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&aNena te estoy guiñando!'
+    Lore:
+    - '&7Estás ligando con alguien?'
+    - '&7Pues venga guiñale el ojito'
+    - '&7y enamorala con este emoticono!'
+  Grin:
+    Name: '&aEmoticono sonriendo'
+    Cooldown: 10
+    Mystery Dust: 13
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&aEstoy contento!'
+    Lore:
+    - '&7Estás super contento?'
+    - '&7Pues claro ponte con'
+    - '&7este emoticono animado!'
+  Surprised:
+    Name: '&aEmoticono sorprendido'
+    Cooldown: 10
+    Mystery Dust: 15
+    Rarity: Common
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&aOMG!'
+    Lore:
+    - '&7Estás ahora mismo sorprendido?'
+    - '&7Pues yo también, estoy OMG.'
+    - '&7Ponte ahora este emoticono!'
+  Cry:
+    Name: '&9Emoticono llorando'
+    Cooldown: 10
+    Mystery Dust: 25
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&a:´('
+    Lore:
+    - '&7Estás sad por qué tu crush'
+    - '&7te rechazó? Pues ponte este'
+    - '&7emoticono... Yo me voy a llorar!'
+  Sleepy:
+    Name: '&9Emoticono con sueño'
+    Cooldown: 10
+    Mystery Dust: 20
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&aZzzzz'
+    Lore:
+    - '&7Estás con sueño? NORMAL!'
+    - '&7Tu con tu jueguito hasta'
+    - '&7por la noche jugandólo!'
+    - '&7Coje este emoticono y vete a dormir!'
+  Rage:
+    Name: '&9Emoticono furioso'
+    Cooldown: 10
+    Mystery Dust: 23
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&c&lGRRRRR!!!'
+    Lore:
+    - '&7Estás muy furioso con alguien?'
+    - '&7Y también quieres sangre? Mejor'
+    - '&7ponte este emoticono y relajáte!'
+  Frown:
+    Name: '&9Emoticono rompiendo a llorar'
+    Cooldown: 10
+    Mystery Dust: 22
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&aMuaaa!'
+    Lore:
+    - '&7Ahora mismo tengo ganas de llorar!'
+    - '&7Muestrále al mundo que quieres ahora'
+    - '&7mismo romper a llorar ya!'
+  Cheeky:
+    Name: '&9CEmoticono sacándo la lengua'
+    Cooldown: 10
+    Mystery Dust: 22
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&aÑee!'
+    Lore:
+    - '&7Te saco la lengua, blaaaa.'
+    - '&7Todo el mundo lo hace y por qué'
+    - '&7tú no? Venga elige este emoticono!'
+  Sun Tan:
+    Name: '&9Emoticono broncéandote'
+    Cooldown: 10
+    Mystery Dust: 25
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&aQue calor!'
+    Lore:
+    - '&7Te estás bronceando? Pues venga'
+    - '&7ponte este emoticono animado!'
+    - '&7Y ahora... AAGHRR me quemoo!'
+    - '&7Que fuerte esta dando el sool!'
+  Heart Eyes:
+    Name: '&9Emoticono enamorado'
+    Cooldown: 10
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&4&l❤'
+    Lore:
+    - '&7Estás enamoradito perdido'
+    - '&7de alguien? Utiliza este emoticono'
+    - '&7enamorado de alguien, ejem tu crush!'
+  Dizzy:
+    Name: '&9Emoticono mareado'
+    Cooldown: 10
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&ax_x'
+    Lore:
+    - '&7Estás muy mareado bro!'
+    - '&7Relájate bro no estés'
+    - '&7así deja de beber cervezas!'
+  RIP:
+    Name: '&9Emoticono RIP'
+    Cooldown: 10
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&cAdiós...'
+    Lore:
+    - '&7Este es el final de tu vida!'
+    - '&7Con este emoticono de muerto'
+    - '&7podrás expresar tu muerte!'
+  Relax:
+    Name: '&9Emoticono relajado'
+    Cooldown: 10
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&eManueh relajaito'
+    Lore:
+    - '&7AQUÍ TODO EL MUNDO RELAJAITO!'
+    - '&7Con este emoticono exprésate como'
+    - '&7que estás relajaito manueh.'
+  Spicy:
+    Name: '&9Emoticono picante'
+    Cooldown: 10
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&c&lPICAA!'
+    Lore:
+    - '&7Estás como un put* pimiento.'
+    - '&7Exprésate con este emoticono'
+    - '&7animado, si te estás comiendo'
+    - '&7pues por ejemplo: Un &a&lTA&c&lCO'
+  Deal With It:
+    Name: '&9Emoticono WAO!'
+    Cooldown: 10
+    Mystery Dust: 28
+    Rarity: Rare
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Hologram:
+      Enabled: true
+      Text: '&cAy su madre!'
+    Lore:
+    - '&c&lSIN COMENTARIOS...'

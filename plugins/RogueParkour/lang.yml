@@ -1,0 +1,8 @@
+version: 0
+PREFIX: '&d&lParkour &8» '
+YOUHAVE: '&fTu &erecord &fha sido de &a{points} puntos'
+YOUSCORED: '&fHas &ellegado &fhasta los &a{points} puntos'
+RECORD: '&fHas &croto &ftu &arecord &fde &e{oldpoints} &fhasta los &a{newpoints} puntos'
+YOULOSE: '&cOhh! Te has caido, Intentalo de nuevo!'
+NOPERM: '&4&l! &cNo tienes permisos de hacer eso.'
+FULL: '&4&l! &cEl parkour esta lleno de jugadores, Intentalo de nuevo mas tarde'

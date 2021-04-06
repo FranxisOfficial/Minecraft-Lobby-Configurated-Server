@@ -1,0 +1,45 @@
+#+-----------------------------------------------------------------------------------------+# 
+#                                                                                           #
+# __________               .____         ___.  ___.          ___________    .___.__  __     #
+# \______   \_______  ____ |    |    ____\_ |__\_ |__ ___.__.\_   _____/  __| _/|__|/  |_   #
+#  |     ___/\_  __ \/  _ \|    |   /  _ \| __ \| __ <   |  | |    __)_  / __ | |  \   __\  #
+#  |    |     |  | \(  <_> )    |__(  <_> ) \_\ \ \_\ \___  | |        \/ /_/ | |  ||  |    #
+#  |____|     |__|   \____/|_______ \____/|___  /___  / ____|/_______  /\____ | |__||__|    #
+#                                  \/         \/    \/\/             \/      \/             #
+#                                                                                           #
+#                            @ItemJoins.yml Edit                                            #
+#+-----------------------------------------------------------------------------------------+#
+
+# Join-The-SkyWars:
+#   Name: "Join Arena"
+#   ID: 267
+#   Data-Value: 0
+#   Command: "sw join"
+#   Slot: 1
+#   Cooldown_Seconds: 5
+#   Lore:
+#   - '&8&m------------------'
+#   - '&aenter a game of skywars'
+#   - '&8&m------------------'
+
+# Create Your Item Are Editable Just follow the Instructions
+test-joinitem1:
+    # Name The Item.
+    Name: "&6&lSELECT TO GAME"
+    # Here You can use Minecraft IDs Remember that they are only NUMBERS
+    ID: 402
+    # You can use the Item Value if you have Other Properties
+    Data-value: 0
+    # In the Command Section you can use: "Server, Op, Tell, Console"
+    Command: "tell: &e&lProLobbyEdit &8&l>> &cComming Soon...."
+    # Use "Slots" : (1,2,3,4,5,6,7,8,9)
+    Slot: 5
+    # Time to wait to re-click
+    Cooldown_Seconds: 5
+    # You can Put the Item information
+    Lore:
+    - '&8=========[&c&lX&8]============'
+    - ''
+    - '&bHello, Select to game'
+    - ''
+    - '&8=========[&c&lX&8]============'

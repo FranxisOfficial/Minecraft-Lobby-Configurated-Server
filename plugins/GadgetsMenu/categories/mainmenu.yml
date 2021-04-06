@@ -1,0 +1,74 @@
+MainMenu:
+  Hats:
+    Name: '&eCabezas'
+    Material: DIAMOND_HELMET
+    Lore:
+    - '&7Colecciona todas nuestras cabezas'
+    - '&7del servidor y vacila en la &e&lLOBBY&r&7!'
+  Animated Hats:
+    Name: '&eCabezas animadas'
+    Material: head:5ebfd2396cbabdb42c348bcf41599c87a506a71ef60948c496f95c6cb63141
+    Lore:
+    - '&7Colecciona todas nuestras cabezas'
+    - '&7animadas del servidor y exprésate'
+    - '&7de como estés por todo el &e&lLOBBY&r&7!'
+  Particles:
+    Name: '&ePartículas'
+    Material: BLAZE_POWDER
+    Lore:
+    - '&7Impresiona a todos los jugadores'
+    - '&7de la &e&lLOBBY&r &7de &d&lMEGACRAFT'
+    - '&7con estás impresionantes partículas!'
+  Suits:
+    Name: '&eTrajes'
+    Material: GOLDEN_LEGGINGS
+    Lore:
+    - '&7Colecciona todos los trajes'
+    - '&7y ponte tu smooking negro'
+    - '&7para lucirte en nuestra &e&lLOBBY&r&7!'
+  Gadgets:
+    Name: '&eJuguetes'
+    Material: PISTON
+    Lore:
+    - '&7Juega como un niño pequeño'
+    - '&7con estos divertidos juguetes'
+    - '&7en nuestra &e&lLOBBY&r&7!'
+  Pets:
+    Name: '&eMascotas'
+    Material: BONE
+    Lore:
+    - '&7Desbloquea mascotas que te'
+    - '&7seguirán el rastro siempre'
+    - '&7pase lo que pase por tooodaa la &e&lLOBBY&r&7!'
+  Morphs:
+    Name: '&eTransformaciones'
+    Material: ZOMBIE_HEAD
+    Lore:
+    - '&c&l¡Lo último en transformaciones!'
+    - '&7Úsalo en nuestra &e&lLOBBY&r&7!'
+    - '&7Transformate en lo que tu quieras'
+    - '&7y hasta en el monstruo que tu quieras!'
+  Banners:
+    Name: '&eBanderas'
+    Material: CUSTOM_MATERIAL_1
+    Lore:
+    - '&7Desbloquea banderas que te'
+    - '&7podrás poner en tu cabeza a'
+    - '&7modo de sombrero en la &e&lLOBBY&R&7!'
+  Emotes:
+    Name: '&eEmoticonos'
+    Material: head:60c432cbc490a8af6e9dfeb28095c0a0ec79fff705fb184674d1e743bd05baa
+    Lore:
+    - '&7Exprésate como tu quieras'
+    - '&7y muestrále al mundo como'
+    - '&7estás en ese momento con nuestros'
+    - '&7emoticonos animados en el &e&lLOBBY&r&7!'
+  Cloaks:
+    Name: '&eCapas VIPS'
+    Material: ENCHANTING_TABLE
+    Lore:
+    - '&7Relizado con partículas.'
+    - '&7Lo último en capas con partículas'
+    - '&7Serás lo último además en &d&lSWAG'
+    - '&7Utilizalo en nuestro &e&lLOBBY&r&7!'
+Slot-Layout: 9, 11, 13, 15, 17, 27, 29, 31, 33, 35

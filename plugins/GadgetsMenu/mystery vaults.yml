@@ -1,0 +1,15 @@
+Mystery-Vaults:
+  CAJA1:
+    BlockFace: EAST
+    Location:
+      world: Hubsito
+      x: -23.0
+      y: 64.0
+      z: -46.0
+  CAJA2:
+    BlockFace: WEST
+    Location:
+      world: Hubsito
+      x: 13.0
+      y: 64.0
+      z: -46.0

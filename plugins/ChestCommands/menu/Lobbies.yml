@@ -1,0 +1,70 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&d&lMEGACRAFT &8- &fLobbies'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 3
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'lobbies'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  open-action: ''
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: wool:1
+    left-click: true
+    right-click: true
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+L1:
+  COMMAND: 'tell: &d&lLOBBIES &8» &cError, Ya estas conectado a este lobby.'
+  NAME: '&8» &d&lLobby 1'
+  LORE:
+    - '&8Conectarse al Lobby 1'
+    - ''
+    - '&e➵ &7Estado &8| &2&lDISPONIBLE'
+    - '&e➵ &7Conectados &8| &a{online}&8/&c100'
+    - ''
+    - '&f&l➟ &6Ya estás conectado!'
+  ID: 351
+  DATA-VALUE: 10
+  POSITION-X: 4
+  POSITION-Y: 2
+L2:
+  COMMAND: 'tell: &d&lLOBBIES &8» &cError, Este lobby no existe actualmente.'
+  NAME: '&8» &d&lLobby 2'
+  LORE:
+    - '&8Conectarse al Lobby 2'
+    - ''
+    - '&e➵ &7Estado &8| &4&lNO DISPONIBLE'
+    - '&e➵ &7Conectados &8| &a0&8/&c100'
+    - ''
+    - '&f&l➟ &eClick para conectarte!'
+  ID: 351
+  DATA-VALUE: 8
+  POSITION-X: 6
+  POSITION-Y: 2

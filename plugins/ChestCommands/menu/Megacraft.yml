@@ -1,0 +1,131 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&d&lMEGACRAFT &3&lNETWORK &e2.0'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 3
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'Megamenu'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  open-action: ''
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: wool:1
+    left-click: true
+    right-click: true
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+S1:
+  COMMAND: 'server:AAASDASDASD'
+  NAME: '&bCambio #1'
+  LORE:
+    - ''
+    - '&cNueva mejoria en la network'
+    - '&cCon +48 horas de trabajo!'
+  ID: 340
+  POSITION-X: 2
+  POSITION-Y: 2
+S2:
+  COMMAND: 'server:AAASDASDASD'
+  NAME: '&bCambio #2'
+  LORE:
+    - ''
+    - '&cLe hemos sacado partido a'
+    - '&cnuevos plugins y configuraciones!'
+  ID: 340
+  POSITION-X: 3
+  POSITION-Y: 2
+S3:
+  COMMAND: 'server:AAASDASDASD'
+  NAME: '&bCambio #3'
+  LORE:
+    - ''
+    - '&cNuevos "personajes" y npcs'
+    - '&cpor todo el lobby y decoraciones'
+  ID: 340
+  POSITION-X: 4
+  POSITION-Y: 2
+S4:
+  COMMAND: 'server:AAASDASDASD'
+  NAME: '&bCambio #4'
+  LORE:
+    - ''
+    - '&cNuevo lobby, items, menús'
+    - '&cy mucho más. &eInvéstigalo'
+  ID: 340
+  POSITION-X: 5
+  POSITION-Y: 2
+S6:
+  COMMAND: 'server:AAASDASDASD'
+  NAME: '&bCambio #5'
+  LORE:
+    - ''
+    - '&cNuevos cósmeticos, cajas'
+    - '&cmisteriosas y polvo misterioso'
+  ID: 340
+  POSITION-X: 6
+  POSITION-Y: 2
+S9:
+  COMMAND: 'server:AAASDASDASD'
+  NAME: '&bCambio #6'
+  LORE:
+    - ''
+    - '&cNuevas temporadas que se irán'
+    - '&cdesarrollando a lo largo del tiempo'
+  ID: 340
+  POSITION-X: 7
+  POSITION-Y: 2
+S20:
+  COMMAND: 'server:AAASDASDASD'
+  NAME: '&bCambio #7'
+  LORE:
+    - ''
+    - '&cNuevos modos staffs, mensajes'
+    - '&cmodos de ss, y mucho más para staffs'
+  ID: 340
+  POSITION-X: 8
+  POSITION-Y: 2
+Perfil2:
+  COMMAND: 'perflsm'
+  NAME: '&d&lTú información &a&l✔'
+  LORE:
+    - ''
+    - '&fNombre: &a{player}'
+    - '&fRango: &c¡Adquíerelo!'
+    - '&fNivel: &30'
+    - '&fDinero: &60.0'
+    - ''
+    - '&fPolvo misterioso: &d0'
+    - '&fMystery boxes: &b0'
+    - ''
+    - '&aClick para ir a tu perfil.'
+  ID: 397
+  DATA-VALUE: 3
+  SKULL-OWNER: Config
+  POSITION-X: 5
+  POSITION-Y: 5

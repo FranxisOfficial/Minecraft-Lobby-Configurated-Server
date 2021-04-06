@@ -1,0 +1,41 @@
+Lobby:
+  x: 0.4156639820992615
+  y: 158.0
+  z: 0.8647802091697243
+  pitch: 2.850003
+  yaw: 0.44999894
+  world: LOBBYP2
+  spawn:
+    x: 0.4967451510343791
+    y: 158.0
+    z: 0.6948928239602812
+    pitch: 7.3499503
+    yaw: 0.1499904
+    world: LOBBYP2
+LOBBYP2:
+  mode: Spawn
+  spawn:
+    x: 0.4563406779818075
+    y: 158.0
+    z: 0.6167761006640963
+    pitch: -2.2500134
+    yaw: -0.14999895
+    world: LOBBYP2
+LOBBY:
+  spawn:
+    x: -4.563735542216349
+    y: 63.0
+    z: -1.715950424038132
+    pitch: 20.657888
+    yaw: -173.72409
+    world: Hubsito
+Hubsito:
+  mode: Spawn
+  message: '&r '
+  spawn:
+    x: -4.563735542216349
+    y: 63.0
+    z: -1.715950424038132
+    pitch: -7.5610423
+    yaw: -179.56741
+    world: Hubsito

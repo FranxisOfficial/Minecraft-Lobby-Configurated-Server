@@ -1,0 +1,107 @@
+Cloaks:
+  Superhero:
+    Name: '&6Capa VIP de Superheroe'
+    Material: RED_DYE
+    Mystery Dust: 65
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&7De un cómic a minecraft.'
+    - '&7Una preciosa capa de el'
+    - '&7color como no, &4&lROJO&r&7!'
+  Mystical:
+    Name: '&6Capa VIP de Místico'
+    Material: BOOK
+    Mystery Dust: 85
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&7Rodeado de unos místeriosos'
+    - '&7simbolos como los de &5&lKEVIN&r'
+    - '&7de el famoso juego &6FORTNITE&r&7!'
+  Firewings:
+    Name: '&6Capa VIP de Alas de Fuego'
+    Material: BLAZE_POWDER
+    Mystery Dust: 72
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&7Una capa en forma de X de'
+    - '&6&lFUEGO&r &7y sobre todo'
+    - '&7muy buenas llamas!'
+  Vampire Wings:
+    Name: '&6Capa VIP de Alas de Vampiro'
+    Material: REDSTONE
+    Mystery Dust: 78
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&7Unas preciosas alas de vampiro'
+    - '&7grises que se van expandiendo'
+    - '&7por toda tu espalda como un'
+    - '&7verdadero, &8&lVAMPIRO&r&7!'
+  Frosty:
+    Name: '&6Capa VIP de un Escarchado'
+    Material: SNOWBALL
+    Mystery Dust: 78
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&7El frío nunca le molestó'
+    - '&7Pero de todos modos. Buena'
+    - '&f&lCAPA DE ESCARCHADO&r &7bro!'
+  Icewings:
+    Name: '&6Capa VIP de Alas de Hielo'
+    Material: ICE
+    Mystery Dust: 72
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&7Pero bueno!, soy yo o aquí'
+    - '&7hace &b&lFRÍO&r&7. &7Una preciosa'
+    - '&7capa en forma de X &9helada&7!'
+  Shaman:
+    Name: '&6Capa VIP de Chamán'
+    Material: BONE
+    Mystery Dust: 85
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&7Estar rodeado de un tornado.'
+    - '&7Enserio?, pues claro!. Serás'
+    - '&7un verdadero &f&lCHAMÁN TORNADO&r&7!'
+  Firerings:
+    Name: '&6Capa VIP de Anillos de Fuego'
+    Material: BLAZE_ROD
+    Mystery Dust: 50
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&7Estar rodeado de &6&lLLAMAS DE FUEGO&r&7.'
+    - '&7Quizás hagas cenizas las cosas a tu paso!'
+  Scanner:
+    Name: '&6Capa VIP de Escáner'
+    Material: BEACON
+    Mystery Dust: 65
+    Rarity: Legendary
+    Enabled: true
+    CanBeFound: true
+    Purchasable: true
+    Lore:
+    - '&2&kii&r &a&lSCANEANDO&r &2&kii&r'

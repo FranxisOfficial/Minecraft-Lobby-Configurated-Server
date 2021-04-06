@@ -1,0 +1,21 @@
+lastAccountName: alcaPlay
+timestamps:
+  login: 1617461063150
+  lastteleport: 1617447943593
+  logout: 1617461085339
+ipAddress: 83.60.98.148
+lastlocation:
+  world: Hubsito
+  x: -4.584276776420196
+  y: 68.2312856184052
+  z: -37.52836172216597
+  yaw: -179.57881
+  pitch: 46.34999
+afk: false
+logoutlocation:
+  world: Hubsito
+  x: -4.563735542216349
+  y: 63.0
+  z: -1.715950424038132
+  yaw: -182.12885
+  pitch: -4.2000065
