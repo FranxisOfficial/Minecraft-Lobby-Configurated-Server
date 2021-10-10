@@ -1,9 +1,17 @@
-# MEGACRAFT NETWORK - LOBBY SERVER - PUBLIC FOLDERS AND CONFIG
- Imcris jodete bb :)
-# Aqui podeis descargar el servidor de Megacraft NETWORK
-Os lo ha regalado ImCris Gamer conocido en discord y en twicht
+# 💙 MINECRAFT LOBBY CONFIGURATED SERVER 💙
 
-He eliminado algunos archivos ya que no quiero revelar ips de personas que no tienen nada que ver, podeis descargar o volver a crear esos mismo
+# 📚 What is this?
+This is a lobby minecraft server that is already configurated for your Minecraft Network, it have all configurated and ready to play!!
 
-# He filtrado el code ya que Imcris es inmaduro y no sabe las palabras que dice
-Si necesitan mas info contacten a franxis@rolledhost.cloud
+# 🥇 Can i download it and modify?
+Yes without problems, you can do it!!
+
+# 🎓 Where can i find others servers for my network?
+On my github ( FranxissOfficial )
+
+# ⭐ For Futures Updates, please give me your star ⭐
+
+
+
+You can contact me for problems on discord - Franxiss_🎃#9969
+
